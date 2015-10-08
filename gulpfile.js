@@ -21,7 +21,7 @@ function errorLog(error){
 
 gulp.task('browser-sync', function() {
     browserSync.init({
-        proxy: "basic_php/" //gulp-main - path to folder
+        proxy: "gutten-morgen/" //gulp-main - path to folder
     });
 });
 
