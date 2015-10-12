@@ -26,14 +26,19 @@
                 background: -ms-linear-gradient(top, rgba(249,183,0,1) 0%, rgba(245,118,0,1) 100%);
                 background: linear-gradient(to bottom, rgba(249,183,0,1) 0%, rgba(245,118,0,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b700', endColorstr='#f57600', GradientType=0 ); line-height: 1.25; -moz-transition: all 0.5s ease-in 0.8s;-webkit-transition: all 0.5s ease-in 0.8s;-o-transition: all 0.5s ease-in 0.8s;    transition: all 0.5s ease-in 0.8s;outline: none;
-                        -webkit-transition-delay: 1s;
-                        -moz-transition-delay: 1s;
-                        -ms-transition-delay: 1s;
-                        transition-delay: 1s;
+                        -webkit-transition-delay: 0s;
+                        -moz-transition-delay: 0s;
+                        -ms-transition-delay: 0s;
+                        transition-delay: 0s;
             }
+
+
             &:focus{text-decoration: none;}
             &:hover{text-decoration: none;
-
+                -webkit-transition-delay: 1s;
+                -moz-transition-delay: 1s;
+                -ms-transition-delay: 1s;
+                transition-delay: 1s;
                 .convert-button{ -webkit-box-shadow: 0px 0px 40px 0px rgba(245,118,0,1); -moz-box-shadow: 0px 0px 40px 0px rgba(245,118,0,1); box-shadow: 0px 0px 40px 0px rgba(245,118,0,1); animation: mymove 1.5s linear ;}
             }
         }
