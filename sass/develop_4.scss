@@ -1,0 +1,23 @@
+/*header*/
+header{
+    .header-top{background-color: #2f2f2f;
+        .navigation{
+            ul{margin: 0;}
+            li{display: inline-block;vertical-align: middle;padding: 7px 18px;}
+            a{color: white;font-size: 17px;text-decoration: none;transition:all ease-out .2s;
+                &:hover{text-shadow: 0 0 2px #fff;}
+            }
+        }
+    }
+    .header-middle{
+        .logo{padding-top: 16px;}
+        .header-tel{float: left;width: 50%;padding-top: 26px;
+            a{color: #3d3d3d;font-size: 29px;text-decoration: none;transition:all ease-out .2s;
+                &:hover{text-shadow: 0 0 1px #000000;}
+            }
+        }
+        .header-zvonok{float: left;width: 50%;
+
+        }
+    }
+}
