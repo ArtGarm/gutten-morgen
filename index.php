@@ -94,7 +94,7 @@
 			</div>
 		</section>
 		<section>
-
+			<?partial('anil_val');?>
 		</section>
 		<section>
 

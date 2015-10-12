@@ -53,3 +53,27 @@ header{
         }
     }
 }
+
+/*index*/
+.two-images{
+    .two-images-wrap{display: table;}
+    .two-images-item{display: table-cell;width: 50%;vertical-align: middle;}
+    .two-images-item-wrap{
+        &.ti-left{float: right;}
+        &.ti-right{float: left;}
+    }
+    .two-images-img{
+
+    }
+    .two-images-text{color: #fff;padding: 0 40px;max-width: 520px;}
+    .two-images-title{font-weight: bold;font-size: 33px;padding-top: 36px;text-transform: uppercase;}
+    .two-images-description{font-size: 18px;line-height: 22px;padding-top: 22px;
+        p{margin-bottom: 20px;}
+    }
+}
+.about_company{
+    .about_company-section{background: url("../images/about_company_bg.jpg") center top no-repeat;background-size: cover;vertical-align: top;}
+}
+.anil_val{
+    .anil_val-section{vertical-align: top;background-color: #f9b300;}
+}
