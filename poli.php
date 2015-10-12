@@ -195,44 +195,44 @@
                     </div>
                 </div>
 
-                <div class="container predo-buttons-wrap">
+                <div class="container predo-buttons-wrap animate-section">
 
-                    <div class="predo-buttons-item">
+                    <div class="predo-buttons-item animate-delay">
                         <div class="button-a button-border">
                             <span>Валы для печати</span>
                         </div>
                     </div>
-                    <div class="predo-buttons-item">
+                    <div class="predo-buttons-item animate-delay">
                         <div class="button-a button-border">
                             <span>Офсетная печать</span>
                         </div>
                     </div>
-                    <div class="predo-buttons-item">
+                    <div class="predo-buttons-item animate-delay">
                         <div class="button-a button-border">
                             <span>Металлургическая промышленность</span>
                         </div>
                     </div>
-                    <div class="predo-buttons-item">
+                    <div class="predo-buttons-item animate-delay">
                         <div class="button-a button-border">
                             <span>Производство упаковки</span>
                         </div>
                     </div>
-                    <div class="predo-buttons-item">
+                    <div class="predo-buttons-item animate-delay">
                         <div class="button-a button-border">
                             <span>Бумажная промышленность</span>
                         </div>
                     </div>
-                    <div class="predo-buttons-item">
+                    <div class="predo-buttons-item animate-delay">
                         <div class="button-a button-border">
                             <span>Текстильная промышленность</span>
                         </div>
                     </div>
-                    <div class="predo-buttons-item">
+                    <div class="predo-buttons-item animate-delay">
                         <div class="button-a button-border">
                             <span>Машиностроение</span>
                         </div>
                     </div>
-                    <div class="predo-buttons-item">
+                    <div class="predo-buttons-item animate-delay">
                         <div class="button-a button-border">
                             <span>Деревообработка</span>
                         </div>
