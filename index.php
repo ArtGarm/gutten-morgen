@@ -1,11 +1,23 @@
-	<div class="main mbox">
-		<section class="content_w">
-			<div class="content">
-				<?partial('testcontent')?>
-			</div>
+	<div class="main">
+		<section>
+			<?partial('topform');?>
 		</section>
-		<aside class="sidebar_w">
-			<div class="sidebar"></div>
-		</aside>
-		<div class="clear"></div>
+		<section>
+
+		</section>
+		<section>
+
+		</section>
+		<section>
+
+		</section>
+		<section>
+			<?partial('bottom_form');?>
+		</section>
+		<section>
+
+		</section>
+		<section>
+
+		</section>
 	</div>
