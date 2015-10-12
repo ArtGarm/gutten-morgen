@@ -331,7 +331,7 @@
         </section>
 
         <section>
-
+            <?partial('about_company');?>
         </section>
 
     </div>

@@ -78,6 +78,9 @@ header{
     }
 }
 .about_company{
+    &.poli_about_company{
+
+    }
     .about_company-section{background: url("../images/about_company_bg.jpg") center top no-repeat;background-size: cover;vertical-align: top;}
     .two-images-text{color: #fff;padding: 0 25px;max-width: 520px;}
 }

@@ -42,7 +42,7 @@
 	}
 
     include 'header.php';
-	if ($act=='none') 
+	if ($act=='none')
 	include 'index.php';
 	else include $act.'.php';
 	include 'footer.php';
