@@ -89,7 +89,7 @@
   line-height: 1.25;
   transition: all 0.5s ease-in 0.8s;
   outline: none;
-  transition-delay: 1s;
+  transition-delay: 0s;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .convert-box-button:focus {
@@ -98,6 +98,7 @@
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .convert-box-button:hover {
   text-decoration: none;
+  transition-delay: 1s;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .convert-box-button:hover .convert-button {
