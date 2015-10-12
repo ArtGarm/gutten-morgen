@@ -11,7 +11,7 @@
 					<input type="text" name="phone" placeholder="Ваш номер телефона" required="required"/>
 				</div>
 				<div class="input-wrap-submit">
-					<button type="submit" class="submit-form"><span>Отправить</span><div class="mask-button"></div><div class="mask-button-hover"></div><div class="mask-button-active"></button>
+					<button type="submit" class="submit-form"><span>Отправить</span></button>
 				</div>
 			</form>
 		</div>
