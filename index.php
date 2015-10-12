@@ -1,6 +1,7 @@
 	<div class="main">
 		<section>
 			<?partial('topform');?>
+
 		</section>
 		<section>
 			<div class="circles-block animate-section">
@@ -102,7 +103,7 @@
 			<?partial('bottom_form');?>
 		</section>
 		<section>
-
+			<?partial('about_us');?>
 		</section>
 		<section>
 
