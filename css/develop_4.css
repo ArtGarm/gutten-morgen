@@ -3,6 +3,10 @@ header .header-top {
   background-color: #2f2f2f;
 }
 
+header .header-top .col-md-offset-3 {
+  margin-left: 22%;
+}
+
 header .header-top .navigation ul {
   margin: 0;
 }
@@ -24,6 +28,10 @@ header .header-top .navigation a:hover {
   text-shadow: 0 0 2px #fff;
 }
 
+header .header-middle {
+  padding-bottom: 18px;
+}
+
 header .header-middle .logo {
   padding-top: 16px;
 }
@@ -43,6 +51,10 @@ header .header-middle .header-tel a {
 
 header .header-middle .header-tel a:hover {
   text-shadow: 0 0 1px #000000;
+}
+
+header .header-middle .header-tel a span {
+  margin-left: -18px;
 }
 
 header .header-middle .header-zvonok {
@@ -138,4 +150,66 @@ header .header-middle .header-zvonok .button-a {
 
 .footer .footer-top-navigation .footer-item a:hover {
   color: #0693bd;
+}
+
+.footer .row > div {
+  opacity: 0;
+  transition: all ease 0.3s;
+}
+
+.footer .row > div.animated {
+  opacity: 1;
+}
+
+/*index*/
+.two-images .two-images-wrap {
+  display: table;
+}
+
+.two-images .two-images-item {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.two-images .two-images-item-wrap.ti-left {
+  float: right;
+}
+
+.two-images .two-images-item-wrap.ti-right {
+  float: left;
+}
+
+.two-images .two-images-text {
+  color: #fff;
+  padding: 0 40px;
+  max-width: 520px;
+}
+
+.two-images .two-images-title {
+  font-weight: bold;
+  font-size: 33px;
+  padding-top: 36px;
+  text-transform: uppercase;
+}
+
+.two-images .two-images-description {
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 22px;
+}
+
+.two-images .two-images-description p {
+  margin-bottom: 20px;
+}
+
+.about_company .about_company-section {
+  background: url("../images/about_company_bg.jpg") center top no-repeat;
+  background-size: cover;
+  vertical-align: top;
+}
+
+.anil_val .anil_val-section {
+  vertical-align: top;
+  background-color: #f9b300;
 }

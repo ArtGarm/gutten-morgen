@@ -2,8 +2,7 @@
 	<div class="top-form container">
 		<div class="title-wrap white animate-section">
 			<div class="title animate-it">
-				<p>Ремонт анилоксовых валов</p>
-				<p>по специальной цене</p>
+				<p>Скидка на первый заказ 15%</p>
 			</div>
 		</div>
 		<div class="form-wrap row">

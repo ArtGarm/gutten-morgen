@@ -1,29 +1,29 @@
 	<div class="footer_placeholder"></div>
 	<footer class="footer">
-        <?php if($act !== "index" && $act !== "none"){?>
-            <div class="container footer-top-navigation">
-                <div class="row cfix">
-                    <div class="footer-item"><a href="#">Главная</a></div>
-                    <div class="footer-item"><a href="#">Услуги</a></div>
-                    <div class="footer-item"><a href="#">Востановление валов</a></div>
-                    <div class="footer-item"><a href="#">Анилоксовые валы и гильзы</a></div>
+        <?php if($act !== "index" || $act !== "none"){?>
+            <div class="container footer-top-navigation animate-section">
+                <div class="row cfix animate-it">
+                    <div class="footer-item animate-delay"><a href="#">Главная</a></div>
+                    <div class="footer-item animate-delay"><a href="#">Услуги</a></div>
+                    <div class="footer-item animate-delay"><a href="#">Востановление валов</a></div>
+                    <div class="footer-item animate-delay"><a href="#">Анилоксовые валы и гильзы</a></div>
                 </div>
-                <div class="row cfix">
-                    <div class="footer-item"><a href="#">Отзывы</a></div>
-                    <div class="footer-item"><a href="#">О компании</a></div>
-                    <div class="footer-item"><a href="#">Полиграфические валы</a></div>
-                    <div class="footer-item"><a href="#">Флексогильзы</a></div>
+                <div class="row cfix animate-it">
+                    <div class="footer-item animate-delay"><a href="#">Отзывы</a></div>
+                    <div class="footer-item animate-delay"><a href="#">О компании</a></div>
+                    <div class="footer-item animate-delay"><a href="#">Полиграфические валы</a></div>
+                    <div class="footer-item animate-delay"><a href="#">Флексогильзы</a></div>
                 </div>
             </div>
         <?php } ?>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
+        <div class="container animate-section">
+            <div class="row animate-it">
+                <div class="col-md-4 animate-delay">
                     <div class="logo">
                         <img src="images/header-logo.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-4 col-md-offset-1">
+                <div class="col-md-4 col-md-offset-1 animate-delay">
                     <div class="confidental">
                         <a href="#">Политика конфиденциальности</a>
                     </div>
@@ -33,7 +33,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-2 col-md-offset-1">
+                <div class="col-md-2 col-md-offset-1 animate-delay">
                     <div class="footer-addres">
                         <div class="addres-row">
                             <span class="icon footer-tel"></span>

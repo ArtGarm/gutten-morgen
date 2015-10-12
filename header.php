@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
+	<meta id="viewport" name="viewport" content="width=960, user-scalable=no">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 
@@ -110,7 +111,7 @@
 		<div class="header-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-md-offset-3">
+					<div class="col-md-7 col-md-offset-3">
 						<nav class="navigation">
 							<ul class="text-center">
 								<li><a href="#">Услуги</a></li>
@@ -140,7 +141,7 @@
 							</a>
 						</div>
 						<div class="header-zvonok">
-							<a href="#" class="button-a">
+							<a href="#call-popup" class="button-a fancybox_popup">
 								<span>Заказать звонок</span>
 							</a>
 						</div>
