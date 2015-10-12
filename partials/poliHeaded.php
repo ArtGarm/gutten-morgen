@@ -1,8 +1,8 @@
 <div class="header-slider-wrap">
     <div class="header-slider-wrap-main">
         <div class="header-slider-item">
-            <div class="conteiner-content">
-                <div class="content-box no-hover-item2">
+            <div class="conteiner-content animate-section">
+                <div class="content-box no-hover-item2 animate-it">
                     <h3>  Производство и востановление <br /> полиграфических валов  </h3>
                 </div>
                 <img src="images/header-image2.png" alt="" />

@@ -213,3 +213,7 @@ header .header-middle .header-zvonok .button-a {
   vertical-align: top;
   background-color: #f9b300;
 }
+
+.anil_val .button-a {
+  line-height: 45px;
+}
