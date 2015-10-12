@@ -327,7 +327,7 @@
         </section>
 
         <section>
-
+            <?partial('about_us');?>
         </section>
 
         <section>
