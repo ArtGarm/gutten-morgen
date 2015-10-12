@@ -1,11 +1,11 @@
     <div class="main">
 
         <section>
-            <?partial('topform');?>
+            <?partial('topform_anil');?>
         </section>
 
         <section>
-
+            <?partial('poli_text');?>
         </section>
 
         <section>

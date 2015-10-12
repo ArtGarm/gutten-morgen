@@ -160,3 +160,56 @@ header .header-middle .header-zvonok .button-a {
 .footer .row > div.animated {
   opacity: 1;
 }
+
+/*index*/
+.two-images .two-images-wrap {
+  display: table;
+}
+
+.two-images .two-images-item {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.two-images .two-images-item-wrap.ti-left {
+  float: right;
+}
+
+.two-images .two-images-item-wrap.ti-right {
+  float: left;
+}
+
+.two-images .two-images-text {
+  color: #fff;
+  padding: 0 40px;
+  max-width: 520px;
+}
+
+.two-images .two-images-title {
+  font-weight: bold;
+  font-size: 33px;
+  padding-top: 36px;
+  text-transform: uppercase;
+}
+
+.two-images .two-images-description {
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 22px;
+}
+
+.two-images .two-images-description p {
+  margin-bottom: 20px;
+}
+
+.about_company .about_company-section {
+  background: url("../images/about_company_bg.jpg") center top no-repeat;
+  background-size: cover;
+  vertical-align: top;
+}
+
+.anil_val .anil_val-section {
+  vertical-align: top;
+  background-color: #f9b300;
+}
