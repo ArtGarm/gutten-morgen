@@ -73,7 +73,7 @@ section {
   -ms-transition: transform 400ms ease;
 }
 
-.circles-block-wrap .col-md-4.animated .circle-img-wrap img {
+.circles-block-wrap .animated .circle-img-wrap img {
   transform: scale(1) rotate(0deg);
   -webkit-transform: scale(1) rotate(0deg);
   -moz-transform: scale(1) rotate(0deg);
@@ -103,7 +103,7 @@ section {
   -ms-transition: color 400ms ease;
 }
 
-.circles-block-wrap .col-md-4.animated .circle-wrap-description {
+.circles-block-wrap .animated .circle-wrap-description {
   color: #2f2f2f;
   transform: translate(0, 0);
   -webkit-transform: translate(0, 0);
@@ -111,7 +111,7 @@ section {
   -ms-transform: translate(0, 0);
 }
 
-.circles-block-wrap .col-md-4.animated .circle-wrap-description span {
+.circles-block-wrap .animated .circle-wrap-description span {
   font-weight: 700;
   color: #07afda;
 }
