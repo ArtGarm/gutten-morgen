@@ -6,7 +6,12 @@
     padding-top: 3px;
    }
 .foto-block-about{
+    transform:scale(0);
+    transition:transform 300ms ease;
     padding:0;
+}
+.animated .foto-block-about{
+    transform:scale(1);
 }
 .container-for-foto{
 
@@ -23,9 +28,19 @@
     transform: translate(-48%,-56%);
     margin: 50% 0 0 50%;
 }
+.animated .text-block-about{
+    transform:translate(0);
+    opacity: 1;
+
+}
 .text-block-about{
     position:relative;
     padding:0;
+    opacity:0;
+    transform: translate(700px);
+    transition: transform 300ms ease, opacity 300ms ease;
+
+
 }
 .text-bordered-block{
     width:684px;
