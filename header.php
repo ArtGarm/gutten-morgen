@@ -129,7 +129,18 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 col-md-offset-2"></div>
+					<div class="col-md-6 col-md-offset-2 cfix">
+						<div class="header-tel">
+							<a href="tel:84997071207">
+								<span>8(499)<b>707-12-07</b></span>
+							</a>
+						</div>
+						<div class="header-zvonok">
+							<a href="#" class="button-a">
+								<span>Заказать звонок</span>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
