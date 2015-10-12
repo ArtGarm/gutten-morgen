@@ -5,7 +5,7 @@
         </section>
 
         <section>
-
+            <?partial('flec_text');?>
         </section>
 
         <section>

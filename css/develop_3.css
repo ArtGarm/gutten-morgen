@@ -204,6 +204,26 @@ button.submit-form:before, a.button-a:before {
   -ms-transform: translate3d(0, 0, 0);
 }
 
+.poli-text .animate-section .col-md-12 {
+  opacity: 0;
+  transform: translate3d(0, 25%, 0);
+  -webkit-transform: translate3d(0, 25%, 0);
+  -moz-transform: translate3d(0, 25%, 0);
+  -ms-transform: translate3d(0, 25%, 0);
+  transition: opacity 400ms ease, transform 300ms ease;
+  -webkit-transition: opacity 400ms ease, -webkit-transform 300ms ease;
+  -moz-transition: opacity 400ms ease, transform 300ms ease;
+  -ms-transition: opacity 400ms ease, transform 300ms ease;
+}
+
+.poli-text .animate-section .col-md-12.animated {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+
 /* /animate */
 /* bottom form */
 .bottom-form-wrap {
@@ -441,3 +461,43 @@ button.submit-form:before, a.button-a:before {
 }
 
 /* /about company text */
+/* poli text */
+.poli-text-wrap .poli-text .row {
+  padding-top: 48px;
+  padding-bottom: 4px;
+}
+
+.poli-text-wrap .poli-text .row .col-md-12 p {
+  font-size: 15px;
+  font-family: Geometria;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-indent: 5px;
+}
+
+/* /poli text */
+/* flec text */
+.flec-text-wrap .flec-text {
+  padding-top: 10px;
+}
+
+.flec-text-wrap .flec-text .flec-top-text {
+  padding-bottom: 10px;
+}
+
+.flec-text-wrap .flec-text .flec-top-text p {
+  font-size: 15px;
+  font-family: Geometria;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}
+
+.flec-text-wrap .flec-text .flec-text-images {
+  padding-bottom: 10px;
+}
+
+.flec-text-wrap .flec-text .flec-text-images .flec-images img {
+  float: left;
+}
+
+/* /flec text */
