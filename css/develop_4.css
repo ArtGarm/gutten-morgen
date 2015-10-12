@@ -48,4 +48,11 @@ header .header-middle .header-tel a:hover {
 header .header-middle .header-zvonok {
   float: left;
   width: 50%;
+  padding-top: 23px;
+  padding-left: 20px;
+}
+
+header .header-middle .header-zvonok .button-a {
+  line-height: 45px;
+  text-decoration: none;
 }
