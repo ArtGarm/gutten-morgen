@@ -14,7 +14,7 @@
 					<input type="text" name="phone" placeholder="Ваш номер телефон" required="required">
 				</div>
 				<div class="input-wrap col-md-3 input-submit animate-delay">
-					<button type="submit" class="submit-form consult"><span>Получить консультацию</span><div class="mask-button"></div><div class="mask-button-hover"></div><div class="mask-button-active"></button>
+					<button type="submit" class="submit-form consult"><span>Получить консультацию</span></button>
 				</div>
 			</form>
 		</div>

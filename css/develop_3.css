@@ -138,19 +138,8 @@ a.button-a:active {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0078c1', endColorstr='#0bb7de',GradientType=0 );
 }
 
-button.submit-form span {
-  z-index: 9999;
-  position: absolute;
-  top: 60%;
-  left: 31%;
-  text-align: center;
-  font-size: 22px;
-  color: #fff;
-  font-family: Geometria;
-}
-
-button.submit-form .mask-button {
-  z-index: 0;
+button.submit-form {
+  border-radius: 5px;
   background: #0bb7de;
   background: linear-gradient(to bottom, #0bb7de 0%, #0078c1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0bb7de', endColorstr='#0078c1',GradientType=0 );
@@ -163,40 +152,68 @@ button.submit-form .mask-button {
   opacity: 1;
 }
 
-button.submit-form:hover .mask-button-hover {
+button.submit-form span {
+  z-index: 9999;
+  position: relative;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+  font-family: Geometria;
+}
+
+button.submit-form:hover:after {
+  border-radius: 5px;
+  z-index: 0;
   opacity: 1;
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
   background: #0cc9f6;
   background: linear-gradient(to bottom, #0cc9f6 0%, #0099ee 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0cc9f6', endColorstr='#0099ee',GradientType=0 );
-  max-width: 100%;
-  width: 100%;
-  height: 49px;
-  border: 0;
-  border-radius: 5px;
-  display: inline-block;
-  opacity: 1;
 }
 
-button.submit-form:active .mask-button-active {
+button.submit-form:active:before {
+  border-radius: 5px;
+  z-index: 0;
   opacity: 1;
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
   background: #0078c1;
   background: linear-gradient(to bottom, #0078c1 0%, #0bb7de 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0078c1', endColorstr='#0bb7de',GradientType=0 );
-  max-width: 100%;
-  width: 100%;
-  height: 49px;
-  border: 0;
-  border-radius: 5px;
-  display: inline-block;
-  opacity: 1;
 }
 
-button.submit-form .mask-button-hover, button.submit-form .mask-button-active {
+button.submit-form:after, button.submit-form:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease;
+  -webkit-transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  -ms-transition: opacity 1s ease;
+}
+
+button.submit-form:active:after {
   opacity: 0;
 }
 
-.consult span {
-  left: 4% !important;
+button.submit-form:hover:before {
+  opacity: 0;
 }
 
 /* /buttons */
@@ -219,16 +236,6 @@ button.submit-form .mask-button-hover, button.submit-form .mask-button-active {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
-}
-
-button.submit-form div {
-  transition: opacity 1s ease, transform 300ms ease;
-  -webkit-transition: opacity 1s ease, -webkit-transform 300ms ease;
-  -moz-transition: opacity 1s ease, transform 300ms ease;
-  -ms-transition: opacity 1s ease, transform 300ms ease;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 /* /animate */
