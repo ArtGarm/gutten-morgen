@@ -188,6 +188,40 @@
 
         <section>
 
+            <div class="predo-buttons">
+                <div class="title-wrap animate-section">
+                    <div class="title animate-it">
+                        <p>МЫ ПРЕДЛАГАЕМ ВАЛЫ ДЛЯ МНОГИХ ОТРАСЛЕЙ</p>
+                    </div>
+                </div>
+                <div class="predo-buttons-wrap">
+                    <div class="predo-buttons-item button-b">
+                        Валы для печати
+                    </div>
+                    <div class="predo-buttons-item button-b">
+                        Офсетная печать
+                    </div>
+                    <div class="predo-buttons-item button-b">
+                        Металлургическая промышленность
+                    </div>
+                    <div class="predo-buttons-item button-b">
+                        Производство упаковки
+                    </div>
+                    <div class="predo-buttons-item button-b">
+                        Бумажная промышленность
+                    </div>
+                    <div class="predo-buttons-item button-b">
+                        Текстильная промышленность
+                    </div>
+                    <div class="predo-buttons-item button-b">
+                        Машиностроение
+                    </div>
+                    <div class="predo-buttons-item button-b">
+                        Деревообработка
+                    </div>
+                </div>
+            </div>
+
         </section>
 
         <section>
