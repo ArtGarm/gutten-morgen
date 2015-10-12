@@ -224,6 +224,46 @@ button.submit-form:before, a.button-a:before {
   -ms-transform: translate3d(0, 0, 0);
 }
 
+.flec-text .flec-top-text .col-md-12 {
+  opacity: 0;
+  transform: translate3d(0, 25%, 0);
+  -webkit-transform: translate3d(0, 25%, 0);
+  -moz-transform: translate3d(0, 25%, 0);
+  -ms-transform: translate3d(0, 25%, 0);
+  transition: opacity 400ms ease, transform 300ms ease;
+  -webkit-transition: opacity 400ms ease, -webkit-transform 300ms ease;
+  -moz-transition: opacity 400ms ease, transform 300ms ease;
+  -ms-transition: opacity 400ms ease, transform 300ms ease;
+}
+
+.flec-text .flec-top-text .col-md-12.animated {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+
+.flec-text .flec-text-images .animate-delay {
+  opacity: 0;
+  transform: translate3d(0, 25%, 0);
+  -webkit-transform: translate3d(0, 25%, 0);
+  -moz-transform: translate3d(0, 25%, 0);
+  -ms-transform: translate3d(0, 25%, 0);
+  transition: opacity 400ms ease, transform 300ms ease;
+  -webkit-transition: opacity 400ms ease, -webkit-transform 300ms ease;
+  -moz-transition: opacity 400ms ease, transform 300ms ease;
+  -ms-transition: opacity 400ms ease, transform 300ms ease;
+}
+
+.flec-text .flec-text-images .animate-delay.animated {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+
 /* /animate */
 /* bottom form */
 .bottom-form-wrap {
@@ -478,11 +518,11 @@ button.submit-form:before, a.button-a:before {
 /* /poli text */
 /* flec text */
 .flec-text-wrap .flec-text {
-  padding-top: 10px;
+  padding-top: 43px;
 }
 
 .flec-text-wrap .flec-text .flec-top-text {
-  padding-bottom: 10px;
+  padding-bottom: 45px;
 }
 
 .flec-text-wrap .flec-text .flec-top-text p {
@@ -490,14 +530,37 @@ button.submit-form:before, a.button-a:before {
   font-family: Geometria;
   line-height: 1.2;
   letter-spacing: 0px;
+  text-indent: 5px;
 }
 
 .flec-text-wrap .flec-text .flec-text-images {
   padding-bottom: 10px;
 }
 
+.flec-text-wrap .flec-text .flec-text-images .flec-images {
+  width: 36%;
+  padding: 0;
+}
+
 .flec-text-wrap .flec-text .flec-text-images .flec-images img {
   float: left;
+  margin-bottom: 85px;
+  margin-left: 8px;
+}
+
+.flec-text-wrap .flec-text .flec-text-images .flec-texts {
+  width: 62.7%;
+  padding: 0;
+  margin-left: 12px;
+  text-indent: 5px;
+  padding-top: 8px;
+}
+
+.flec-text-wrap .flec-text .flec-text-images .flec-texts p {
+  font-size: 15px;
+  font-family: Geometria;
+  line-height: 1.2;
+  letter-spacing: -0.1px;
 }
 
 /* /flec text */
