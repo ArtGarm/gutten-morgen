@@ -23,7 +23,7 @@
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box h1 {
   color: #ffffff;
-  font-family: 'Geometria';
+  font-family: Geometria;
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
@@ -35,7 +35,7 @@
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .conteiner-content .content-box h2 {
   color: #ffffff;
-  font-family: 'Geometria';
+  font-family: Geometria;
   font-size: 24px;
   text-transform: uppercase;
 }
