@@ -170,20 +170,44 @@ header .header-middle .header-zvonok .button-a {
   display: table-cell;
   width: 50%;
   vertical-align: middle;
+  opacity: 0;
+  transition: 0.2s opacity ease-out 0.4s !important;
+}
+
+.two-images .two-images-item.animated {
+  opacity: 1;
+}
+
+.two-images .two-images-item.animated .ti-left {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.two-images .two-images-item.animated .ti-right {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
 }
 
 .two-images .two-images-item-wrap.ti-left {
   float: right;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  transition: 0.3s -webkit-transform ease-out 0.4s;
+  transition: 0.3s transform ease-out 0.4s;
 }
 
 .two-images .two-images-item-wrap.ti-right {
   float: left;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  transition: 0.3s -webkit-transform ease-out 0.4s;
+  transition: 0.3s transform ease-out 0.4s;
 }
 
 .two-images .two-images-text {
   color: #fff;
-  padding: 0 40px;
-  max-width: 520px;
+  padding: 0 25px;
+  max-width: 480px;
 }
 
 .two-images .two-images-title {
@@ -209,7 +233,20 @@ header .header-middle .header-zvonok .button-a {
   vertical-align: top;
 }
 
+.about_company .two-images-text {
+  color: #fff;
+  padding: 0 25px;
+  max-width: 520px;
+}
+
 .anil_val .anil_val-section {
   vertical-align: top;
   background-color: #f9b300;
+}
+
+.anil_val .button-a {
+  line-height: 45px;
+  max-width: 260px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }

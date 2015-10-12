@@ -6,6 +6,9 @@
 	<meta name="keywords" content="" />
 	<meta id="viewport" name="viewport" content="width=960, user-scalable=no">
 	<title></title>
+
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 
 	<link rel="stylesheet" href="css/bootstrap.css" media="all" />

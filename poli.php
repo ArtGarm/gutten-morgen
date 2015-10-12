@@ -194,32 +194,52 @@
                         <p>МЫ ПРЕДЛАГАЕМ ВАЛЫ ДЛЯ МНОГИХ ОТРАСЛЕЙ</p>
                     </div>
                 </div>
-                <div class="predo-buttons-wrap">
-                    <div class="predo-buttons-item button-b">
-                        Валы для печати
+
+                <div class="container predo-buttons-wrap animate-section">
+
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Валы для печати</span>
+                        </div>
                     </div>
-                    <div class="predo-buttons-item button-b">
-                        Офсетная печать
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Офсетная печать</span>
+                        </div>
                     </div>
-                    <div class="predo-buttons-item button-b">
-                        Металлургическая промышленность
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Металлургическая промышленность</span>
+                        </div>
                     </div>
-                    <div class="predo-buttons-item button-b">
-                        Производство упаковки
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Производство упаковки</span>
+                        </div>
                     </div>
-                    <div class="predo-buttons-item button-b">
-                        Бумажная промышленность
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Бумажная промышленность</span>
+                        </div>
                     </div>
-                    <div class="predo-buttons-item button-b">
-                        Текстильная промышленность
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Текстильная промышленность</span>
+                        </div>
                     </div>
-                    <div class="predo-buttons-item button-b">
-                        Машиностроение
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Машиностроение</span>
+                        </div>
                     </div>
-                    <div class="predo-buttons-item button-b">
-                        Деревообработка
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Деревообработка</span>
+                        </div>
                     </div>
+
                 </div>
+
             </div>
 
         </section>
