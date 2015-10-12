@@ -140,7 +140,7 @@
 							</a>
 						</div>
 						<div class="header-zvonok">
-							<a href="#" class="button-a">
+							<a href="#call-popup" class="button-a fancybox_popup">
 								<span>Заказать звонок</span>
 							</a>
 						</div>
