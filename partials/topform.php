@@ -1,7 +1,7 @@
 <div class="top-form-wrap">
-	<div class="top-form container animate-section">
-		<div class="title-wrap animate-it white">
-			<div class="title">
+	<div class="top-form container">
+		<div class="title-wrap white animate-section">
+			<div class="title animate-it">
 				<p>Ремонт анилоксовых валов</p>
 				<p>по специальной цене</p>
 			</div>
