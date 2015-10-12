@@ -9,7 +9,7 @@
 					<input type="text" name="phone" placeholder="Введите Ваш телефон">
 				</div>
 				<div class="input-wrap col-md-4">
-					<button type="submit"><span>Заказать</span></button>
+					<button type="submit" class="submit-form"><span>Заказать</span></button>
 				</div>
 			</form>
 		</div>
