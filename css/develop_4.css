@@ -56,3 +56,86 @@ header .header-middle .header-zvonok .button-a {
   line-height: 45px;
   text-decoration: none;
 }
+
+/*footer*/
+.footer .logo {
+  padding-top: 17px;
+}
+
+.footer .confidental {
+  padding-top: 10px;
+}
+
+.footer .confidental a, .footer .created a {
+  font-size: 18px;
+  color: #2f2f2f;
+  text-decoration: none;
+}
+
+.footer .created {
+  text-decoration: underline;
+  padding-top: 5px;
+}
+
+.footer .created:hover {
+  text-decoration: none;
+}
+
+.footer .footer-addres {
+  margin-left: -31px;
+}
+
+.footer .footer-addres .addres-row {
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.footer .footer-addres a, .footer .footer-addres p {
+  color: #2f2f2f;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.footer .footer-addres .footer-tel {
+  position: absolute;
+  left: -20px;
+  top: 3px;
+  width: 13px;
+  height: 13px;
+  background: url("../images/footer-icon-tel.png") center center no-repeat;
+  text-decoration: none;
+}
+
+.footer .footer-addres .footer-mark {
+  position: absolute;
+  left: -20px;
+  top: 3px;
+  width: 11px;
+  height: 15px;
+  background: url("../images/footer-icon-mark.png") center center no-repeat;
+}
+
+.footer .footer-top-navigation {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer .footer-top-navigation .row {
+  margin: 0 0 5px;
+}
+
+.footer .footer-top-navigation .footer-item {
+  float: left;
+  width: 25%;
+}
+
+.footer .footer-top-navigation .footer-item a {
+  font-size: 14px;
+  color: #2f2f2f;
+  text-decoration: underline;
+}
+
+.footer .footer-top-navigation .footer-item a:hover {
+  color: #0693bd;
+}

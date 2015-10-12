@@ -1,16 +1,17 @@
 	<div class="main">
 		<section>
 			<?partial('topform');?>
+
 		</section>
 		<section>
-			<div class="circles-block animate-section">
-				<div class="title-wrap animate-it">
-					<div class="title">
+			<div class="circles-block">
+				<div class="title-wrap animate-section">
+					<div class="title animate-it">
 						<p>Что делает выгодным и удобным</p>
 						<p>сотрудничество с нами?</p>
 					</div>
 				</div>
-				<div class="container">
+				<div class="container circles-block-wrap">
 					<div class="row animate-section">
 						<div class="col-md-4 animate-delay">
 							<div class="circle-img-wrap">
@@ -102,7 +103,7 @@
 			<?partial('bottom_form');?>
 		</section>
 		<section>
-
+			<?partial('about_us');?>
 		</section>
 		<section>
 
