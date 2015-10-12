@@ -110,7 +110,7 @@
 		<div class="header-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-md-offset-3">
+					<div class="col-md-7 col-md-offset-3">
 						<nav class="navigation">
 							<ul class="text-center">
 								<li><a href="#">Услуги</a></li>
