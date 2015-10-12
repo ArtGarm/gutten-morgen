@@ -4,7 +4,10 @@
 		</section>
 		<section>
 			<div class="circles-block">
-				<div class="title">Что делает выгодным и удобным сотрудничество с нами?</div>
+				<div class="title">
+					<p>Что делает выгодным и удобным</p>
+					<p>сотрудничество с нами?</p>
+				</div>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4">
