@@ -21,3 +21,25 @@ header{
         }
     }
 }
+/*footer*/
+.footer{
+    .logo{padding-top: 17px;}
+    .confidental{padding-top: 10px;}
+    .confidental,.created{
+        a{font-size: 18px;color: #2f2f2f;text-decoration: none;}
+    }
+    .created{text-decoration: underline;padding-top: 5px;
+        &:hover{text-decoration: none;}
+    }
+    .footer-addres{margin-left: -20px;
+        .addres-row{margin-bottom: 5px;position: relative;}
+        a,p{color: #2f2f2f;font-size: 16px;line-height: 20px;text-decoration: none;}
+        .footer-tel{position: absolute;left: -20px;top: 3px;width: 13px;height: 13px;background: url('../images/footer-icon-tel.png') center center no-repeat;text-decoration: none;}
+        .footer-mark{position: absolute;left: -20px;top: 3px;width: 11px;height: 15px;background: url('../images/footer-icon-mark.png') center center no-repeat;}
+    }
+    .footer-top-navigation{
+        .footer-item{float: left;width: 25%;
+            a{}
+        }
+    }
+}
