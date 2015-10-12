@@ -1,14 +1,14 @@
-<div class="container-fluid two-images anil_val">
+<div class="container-fluid two-images anil_val animate-section">
     <div class="row">
         <div class="two-images-wrap">
-            <div class="two-images-item cfix">
-                <div class="two-images-item-wrap ti-left">
+            <div class="two-images-item cfix animate-it">
+                <div class="two-images-item-wrap ti-left ">
                     <div class="two-images-img">
                         <img src="images/anil_val_img.jpg" alt="">
                     </div>
                 </div>
             </div>
-            <div class="two-images-item cfix anil_val-section">
+            <div class="two-images-item cfix anil_val-section animate-it">
                 <div class="two-images-item-wrap ti-right ">
                     <div class="two-images-text">
                         <div class="two-images-title">
