@@ -260,3 +260,24 @@ section {
 }
 
 /* /production */
+/* predo-buttons */
+.predo-buttons-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  padding: 0 15px;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.button-a.button-border {
+  border-bottom: 2px solid #005283;
+}
+
+.predo-buttons-item .button-a {
+  height: 79px;
+  font-weight: 300;
+}
+
+/* /predo-buttons */
