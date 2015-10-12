@@ -1,9 +1,9 @@
     <div class="main">
         <section>
-            <?partial('topform');?>
+            <?partial('topform_anil');?>
         </section>
         <section>
-
+            <?partial('about_company_text');?>
         </section>
         <section>
 
