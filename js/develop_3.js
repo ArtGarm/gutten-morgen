@@ -119,7 +119,13 @@ $(document).ready(function() {
 	validate('.form-bottom', {submitFunction:validationCall});
     validate('.call-form', {submitFunction:validationCall});
 
+    inputNumber($('.phone'));
 
-inputNumber($('.phone'));
+    $('.fancybox_popup').fancybox({
+        padding:0,
+        fitToView:false,
+        autoSize:true,
+        wrapCSS:"call-popup"
+    });
 
 });
