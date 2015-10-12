@@ -36,7 +36,7 @@
 
 /* buttons */
 
-button.submit-form, a.button-a{position:relative;border-radius:5px;background: #0bb7de;background: -moz-linear-gradient(top,  #0bb7de 0%, #0078c1 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0bb7de), color-stop(100%,#0078c1));background: -webkit-linear-gradient(top,  #0bb7de 0%,#0078c1 100%);background: -o-linear-gradient(top,  #0bb7de 0%,#0078c1 100%);background: -ms-linear-gradient(top,  #0bb7de 0%,#0078c1 100%);background: linear-gradient(to bottom,  #0bb7de 0%,#0078c1 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0bb7de', endColorstr='#0078c1',GradientType=0 );max-width: 100%;width: 100%;height: 49px;border: 0;border-radius: 5px; display: inline-block;opacity: 1;outline: none;
+.submit-form, .button-a{position:relative;border-radius:5px;background: #0bb7de;background: -moz-linear-gradient(top,  #0bb7de 0%, #0078c1 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0bb7de), color-stop(100%,#0078c1));background: -webkit-linear-gradient(top,  #0bb7de 0%,#0078c1 100%);background: -o-linear-gradient(top,  #0bb7de 0%,#0078c1 100%);background: -ms-linear-gradient(top,  #0bb7de 0%,#0078c1 100%);background: linear-gradient(to bottom,  #0bb7de 0%,#0078c1 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0bb7de', endColorstr='#0078c1',GradientType=0 );max-width: 100%;width: 100%;height: 49px;border: 0;border-radius: 5px; display: inline-block;opacity: 1;outline: none;
 	span{z-index: 9999;position: relative;text-align: center;font-size: 22px; color: #fff; font-family: Geometria;width: 100%;display: inline-block;}
 	&:hover:after{opacity:1;}
 	&:active:before{opacity:1;}
