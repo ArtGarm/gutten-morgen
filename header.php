@@ -150,7 +150,24 @@
 			</div>
 		</div>
 		<div class="header-bottom">
-			<?partial('sliderHeaded')?>
+			<?php if($act == "anil"){
+				partial('anilHeaded');
+			 }
+			 if($act == "flec"){
+				partial('flecHeaded');
+			 }
+
+			if($act == "index" || $act == "none"){
+				partial('sliderHeaded');
+			}
+
+
+			if($act == "poli"){
+				partial('poliHeaded');
+			} ?>
+
+
+
 		</div>
 
 	</header>
