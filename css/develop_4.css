@@ -1,0 +1,58 @@
+/*header*/
+header .header-top {
+  background-color: #2f2f2f;
+}
+
+header .header-top .navigation ul {
+  margin: 0;
+}
+
+header .header-top .navigation li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 7px 18px;
+}
+
+header .header-top .navigation a {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+}
+
+header .header-top .navigation a:hover {
+  text-shadow: 0 0 2px #fff;
+}
+
+header .header-middle .logo {
+  padding-top: 16px;
+}
+
+header .header-middle .header-tel {
+  float: left;
+  width: 50%;
+  padding-top: 26px;
+}
+
+header .header-middle .header-tel a {
+  color: #3d3d3d;
+  font-size: 29px;
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+}
+
+header .header-middle .header-tel a:hover {
+  text-shadow: 0 0 1px #000000;
+}
+
+header .header-middle .header-zvonok {
+  float: left;
+  width: 50%;
+  padding-top: 23px;
+  padding-left: 20px;
+}
+
+header .header-middle .header-zvonok .button-a {
+  line-height: 45px;
+  text-decoration: none;
+}

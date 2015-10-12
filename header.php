@@ -80,6 +80,9 @@
 
     <script src="js/develop_4.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="css/develop_4.css" media="all" />
+
+    <script src="js/develop_5.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/develop_5.css" media="all" />
 <!-- remove Files -->
 
 	<link rel="stylesheet" href="css/style_main.css" media="all" />
@@ -103,7 +106,50 @@
 <body>
 	<?partial('zHiddenBlock');?>
 	<header class="header">
-		<div class="mbox">
 
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<nav class="navigation">
+							<ul class="text-center">
+								<li><a href="#">Услуги</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
 		</div>
+		<div class="header-middle">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="logo">
+							<a href="#">
+								<img src="images/header-logo.png"  alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-offset-2 cfix">
+						<div class="header-tel">
+							<a href="tel:84997071207">
+								<span>8(499)<b>707-12-07</b></span>
+							</a>
+						</div>
+						<div class="header-zvonok">
+							<a href="#" class="button-a">
+								<span>Заказать звонок</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			<?partial('sliderHeaded')?>
+		</div>
+
 	</header>

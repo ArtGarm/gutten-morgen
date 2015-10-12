@@ -203,7 +203,7 @@
 
 /* helping adds*/
 .clear{clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;}
-.cfix-after:after{content: '';display: block;height: 0;font-size: 1px;line-height: 1px;overflow: hidden;clear: both;}
+.cfix:after{content: '';display: block;height: 0;font-size: 1px;line-height: 1px;overflow: hidden;clear: both;}
 .juster{display:inline-block;width:100%;height:0;overflow:hidden;}
 .jfix-after:after{content: '';display: inline-block;width: 100%;height: 0;overflow: hidden;}
 .vfix{height:100%;width:0px;display:inline-block;vertical-align:middle;}
@@ -214,7 +214,7 @@
 
 /* base styles*/
 html{height:100%}
-body{min-height:100%;min-width:960px;font-family:arial,sans-serif;font-size:12px;background:#fff;color:#3d3d3d;position:relative;}
+body{min-height:100%;min-width:960px;font-family:'Geometria',sans-serif;font-size:12px;background:#fff;color:#3d3d3d;position:relative;}
 img{vertical-align:bottom;border:0;max-width:100%;}
 /* /base styles */
 
@@ -243,7 +243,7 @@ p{margin:0;}
 
 /* wraps styling*/
 
-.mbox{width:1024px;margin:0 auto;position:relative;z-index:1;}
+.mbox{width:960px;margin:0 auto;position:relative;z-index:1;}
 .mbox:after{content:"";clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;display:block;}
 
 /* /wraps styling*/
@@ -260,6 +260,8 @@ p{margin:0;}
 .footer_placeholder{height: 200px;}
 .footer{position:absolute;bottom:0;left:0;width:100%;z-index:2;overflow:hidden;color:#646464;}
 /*End Layout*/
+
+.container{max-width: 960px;width: 100%;margin:0 auto;}
 
 
 
