@@ -1,0 +1,71 @@
+.about-us .title-wrap {
+  margin-bottom: 37px;
+}
+
+.white-around-about {
+  background-color: #fff;
+  padding-top: 3px;
+}
+
+.foto-block-about {
+  padding: 0;
+}
+
+.container-for-foto {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 228px;
+  width: 228px;
+}
+
+.foto-for-about-us {
+  max-width: none;
+  -webkit-transform: translate(-48%, -56%);
+  transform: translate(-48%, -56%);
+  margin: 50% 0 0 50%;
+}
+
+.text-block-about {
+  position: relative;
+  padding: 0;
+}
+
+.text-bordered-block {
+  width: 684px;
+  height: 231px;
+  padding: 45px 30px 30px 50px;
+  float: right;
+  border-style: dashed;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #07afda;
+  margin-right: 2px;
+}
+
+.text-arrow {
+  position: absolute;
+  left: 22px;
+  top: 46%;
+  width: 22px;
+  height: 22px;
+  border-style: dashed;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  border-color: #07afda;
+  background-color: #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.text-about-title p {
+  margin-bottom: 14px;
+  color: #07afda;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.text-about p {
+  color: #2f2f2f;
+  font-size: 16px;
+  line-height: 1.25;
+}

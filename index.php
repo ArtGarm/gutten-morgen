@@ -96,6 +96,11 @@
 		</section>
 
 		<section>
+			<?partial('anil_val');?>
+		</section>
+
+
+		<section>
 			<div class="production-block">
 				<div class="title-wrap animate-section">
 					<div class="title animate-it">
@@ -171,6 +176,7 @@
 					</div>
 				</div>
 			</div>
+
 		</section>
 
 		<section>
