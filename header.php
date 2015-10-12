@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
+	<meta id="viewport" name="viewport" content="width=960, user-scalable=no">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 
