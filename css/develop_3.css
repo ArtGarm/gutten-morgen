@@ -110,7 +110,7 @@
 
 /* /form-top */
 /* buttons */
-button.submit-form, a.button-a {
+.submit-form, .button-a {
   position: relative;
   border-radius: 5px;
   background: #0bb7de;
@@ -126,7 +126,7 @@ button.submit-form, a.button-a {
   outline: none;
 }
 
-button.submit-form span, a.button-a span {
+.submit-form span, .button-a span {
   z-index: 9999;
   position: relative;
   text-align: center;
@@ -137,15 +137,15 @@ button.submit-form span, a.button-a span {
   display: inline-block;
 }
 
-button.submit-form:hover:after, a.button-a:hover:after {
+.submit-form:hover:after, .button-a:hover:after {
   opacity: 1;
 }
 
-button.submit-form:active:before, a.button-a:active:before {
+.submit-form:active:before, .button-a:active:before {
   opacity: 1;
 }
 
-button.submit-form:after, button.submit-form:before, a.button-a:after, a.button-a:before {
+.submit-form:after, .submit-form:before, .button-a:after, .button-a:before {
   z-index: 0;
   border-radius: 5px;
   display: block;
@@ -162,21 +162,21 @@ button.submit-form:after, button.submit-form:before, a.button-a:after, a.button-
   -ms-transition: opacity 1s ease;
 }
 
-button.submit-form:active:after, a.button-a:active:after {
+.submit-form:active:after, .button-a:active:after {
   opacity: 0;
 }
 
-button.submit-form:hover:before, a.button-a:hover:before {
+.submit-form:hover:before, .button-a:hover:before {
   opacity: 0;
 }
 
-button.submit-form:after, a.button-a:after {
+.submit-form:after, .button-a:after {
   background: #0cc9f6;
   background: linear-gradient(to bottom, #0cc9f6 0%, #0099ee 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0cc9f6', endColorstr='#0099ee',GradientType=0 );
 }
 
-button.submit-form:before, a.button-a:before {
+.submit-form:before, .button-a:before {
   background: #0078c1;
   background: linear-gradient(to bottom, #0078c1 0%, #0bb7de 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0078c1', endColorstr='#0bb7de',GradientType=0 );
@@ -197,6 +197,66 @@ button.submit-form:before, a.button-a:before {
 }
 
 .animate-section .input-wrap.animated {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+
+.poli-text .animate-section .col-md-12 {
+  opacity: 0;
+  transform: translate3d(0, 25%, 0);
+  -webkit-transform: translate3d(0, 25%, 0);
+  -moz-transform: translate3d(0, 25%, 0);
+  -ms-transform: translate3d(0, 25%, 0);
+  transition: opacity 400ms ease, transform 300ms ease;
+  -webkit-transition: opacity 400ms ease, -webkit-transform 300ms ease;
+  -moz-transition: opacity 400ms ease, transform 300ms ease;
+  -ms-transition: opacity 400ms ease, transform 300ms ease;
+}
+
+.poli-text .animate-section .col-md-12.animated {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+
+.flec-text .flec-top-text .col-md-12 {
+  opacity: 0;
+  transform: translate3d(0, 25%, 0);
+  -webkit-transform: translate3d(0, 25%, 0);
+  -moz-transform: translate3d(0, 25%, 0);
+  -ms-transform: translate3d(0, 25%, 0);
+  transition: opacity 400ms ease, transform 300ms ease;
+  -webkit-transition: opacity 400ms ease, -webkit-transform 300ms ease;
+  -moz-transition: opacity 400ms ease, transform 300ms ease;
+  -ms-transition: opacity 400ms ease, transform 300ms ease;
+}
+
+.flec-text .flec-top-text .col-md-12.animated {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+
+.flec-text .flec-text-images .animate-delay {
+  opacity: 0;
+  transform: translate3d(0, 25%, 0);
+  -webkit-transform: translate3d(0, 25%, 0);
+  -moz-transform: translate3d(0, 25%, 0);
+  -ms-transform: translate3d(0, 25%, 0);
+  transition: opacity 400ms ease, transform 300ms ease;
+  -webkit-transition: opacity 400ms ease, -webkit-transform 300ms ease;
+  -moz-transition: opacity 400ms ease, transform 300ms ease;
+  -ms-transition: opacity 400ms ease, transform 300ms ease;
+}
+
+.flec-text .flec-text-images .animate-delay.animated {
   opacity: 1;
   transform: translate3d(0, 0, 0);
   -webkit-transform: translate3d(0, 0, 0);
@@ -441,3 +501,66 @@ button.submit-form:before, a.button-a:before {
 }
 
 /* /about company text */
+/* poli text */
+.poli-text-wrap .poli-text .row {
+  padding-top: 48px;
+  padding-bottom: 4px;
+}
+
+.poli-text-wrap .poli-text .row .col-md-12 p {
+  font-size: 15px;
+  font-family: Geometria;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-indent: 5px;
+}
+
+/* /poli text */
+/* flec text */
+.flec-text-wrap .flec-text {
+  padding-top: 43px;
+}
+
+.flec-text-wrap .flec-text .flec-top-text {
+  padding-bottom: 45px;
+}
+
+.flec-text-wrap .flec-text .flec-top-text p {
+  font-size: 15px;
+  font-family: Geometria;
+  line-height: 1.2;
+  letter-spacing: 0px;
+  text-indent: 5px;
+}
+
+.flec-text-wrap .flec-text .flec-text-images {
+  padding-bottom: 10px;
+}
+
+.flec-text-wrap .flec-text .flec-text-images .flec-images {
+  width: 36%;
+  padding: 0;
+}
+
+.flec-text-wrap .flec-text .flec-text-images .flec-images img {
+  float: left;
+  margin-bottom: 85px;
+  margin-left: 8px;
+}
+
+.flec-text-wrap .flec-text .flec-text-images .flec-texts {
+  width: 62.7%;
+  padding: 0;
+  margin-left: 12px;
+  text-indent: 5px;
+  padding-top: 8px;
+}
+
+.flec-text-wrap .flec-text .flec-text-images .flec-texts p {
+  font-size: 15px;
+  font-family: Geometria;
+  line-height: 1.2;
+  letter-spacing: -0.1px;
+}
+
+/* /flec text */

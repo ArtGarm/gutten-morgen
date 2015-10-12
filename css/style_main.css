@@ -73,7 +73,7 @@ section {
   -ms-transition: transform 400ms ease;
 }
 
-.circles-block-wrap .col-md-4.animated .circle-img-wrap img {
+.circles-block-wrap .animated .circle-img-wrap img {
   transform: scale(1) rotate(0deg);
   -webkit-transform: scale(1) rotate(0deg);
   -moz-transform: scale(1) rotate(0deg);
@@ -103,7 +103,7 @@ section {
   -ms-transition: color 400ms ease;
 }
 
-.circles-block-wrap .col-md-4.animated .circle-wrap-description {
+.circles-block-wrap .animated .circle-wrap-description {
   color: #2f2f2f;
   transform: translate(0, 0);
   -webkit-transform: translate(0, 0);
@@ -111,7 +111,7 @@ section {
   -ms-transform: translate(0, 0);
 }
 
-.circles-block-wrap .col-md-4.animated .circle-wrap-description span {
+.circles-block-wrap .animated .circle-wrap-description span {
   font-weight: 700;
   color: #07afda;
 }
@@ -146,6 +146,24 @@ section {
   -webkit-transform: translate(0, 0);
   -moz-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
+}
+
+.production-block .production-item-content.animated li {
+  position: relative;
+  padding-left: 10px;
+  color: #000;
+}
+
+.production-block .production-item-content.animated li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #000000;
+  left: 0;
+  top: 8px;
 }
 
 .production-block .production-item-img {
@@ -194,6 +212,15 @@ section {
   width: 100%;
 }
 
+.production-item.smaller-border .production-item-content {
+  padding-top: 10px;
+}
+
+.production-item.smaller-border:before {
+  height: 0px;
+  bottom: 0;
+}
+
 .production-item .production-item-title {
   font-weight: 700;
   color: #07afda;
@@ -233,3 +260,24 @@ section {
 }
 
 /* /production */
+/* predo-buttons */
+.predo-buttons-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  padding: 0 15px;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.button-a.button-border {
+  border-bottom: 2px solid #005283;
+}
+
+.predo-buttons-item .button-a {
+  height: 79px;
+  font-weight: 300;
+}
+
+/* /predo-buttons */
