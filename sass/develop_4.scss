@@ -1,6 +1,7 @@
 /*header*/
 header{
     .header-top{background-color: #2f2f2f;
+        .col-md-offset-3{margin-left: 22%;}
         .navigation{
             ul{margin: 0;}
             li{display: inline-block;vertical-align: middle;padding: 7px 18px;}
@@ -9,11 +10,12 @@ header{
             }
         }
     }
-    .header-middle{
+    .header-middle{padding-bottom: 18px;
         .logo{padding-top: 16px;}
         .header-tel{float: left;width: 50%;padding-top: 26px;
             a{color: #3d3d3d;font-size: 29px;text-decoration: none;transition:all ease-out .2s;
                 &:hover{text-shadow: 0 0 1px #000000;}
+                span{margin-left: -18px;}
             }
         }
         .header-zvonok{float: left;width: 50%;padding-top: 23px;padding-left: 20px;
@@ -43,6 +45,11 @@ header{
             a{font-size: 14px;color: #2f2f2f;text-decoration: underline;
                 &:hover{color: #0693bd;}
             }
+        }
+    }
+    .row{
+        &>div{opacity: 0;transition:all ease .3s;
+            &.animated{opacity: 1;}
         }
     }
 }
