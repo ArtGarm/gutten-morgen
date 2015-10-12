@@ -1,0 +1,56 @@
+.top-form-wrap {
+  background-color: #FFB400;
+  position: relative;
+}
+
+.top-form-wrap .top-form .form-wrap form .input-wrap {
+  position: relative;
+}
+
+.top-form-wrap .top-form .form-wrap form .input-wrap input {
+  background: transparent;
+  color: #fff;
+  font-family: 'PT Sans';
+  font-size: 14px;
+}
+
+.top-form-wrap .top-form .form-wrap form .input-wrap.name:before {
+  display: block;
+  content: ' ';
+  background-image: url(../images/name.png);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 14px;
+}
+
+.top-form-wrap .top-form .form-wrap form .input-wrap.phone:before {
+  display: block;
+  content: ' ';
+  background-image: url(../images/phone.png);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+button.submit-form, a.button-a {
+  background: #0bb7de;
+  background: linear-gradient(to bottom, #0bb7de 0%, #0078c1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0bb7de', endColorstr='#0078c1',GradientType=0 );
+  max-width: 260px;
+  width: 100%;
+  height: 49px;
+  border: 0;
+  border-radius: 5px;
+}
+
+button.submit-form:hover, a.button-a:hover {
+  background: #0cc9f6;
+  background: linear-gradient(to bottom, #0cc9f6 0%, #0099ee 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0cc9f6', endColorstr='#0099ee',GradientType=0 );
+}
+
+button.submit-form:active, a.button-a:active {
+  background: #0078c1;
+  background: linear-gradient(to bottom, #0078c1 0%, #0bb7de 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0078c1', endColorstr='#0bb7de',GradientType=0 );
+}
