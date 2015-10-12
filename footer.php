@@ -1,19 +1,21 @@
 	<div class="footer_placeholder"></div>
-	<footer class="footer ">
-        <div class="container footer-top-navigation">
-            <div class="row">
-                <div class="footer-item"><a href="#">Главная</a></div>
-                <div class="footer-item"><a href="#">Услуги</a></div>
-                <div class="footer-item"><a href="#">Востановление валов</a></div>
-                <div class="footer-item"><a href="#">Анилоксовые валы и гильзы</a></div>
+	<footer class="footer">
+        <?php if($act !== "index" && $act !== "none"){?>
+            <div class="container footer-top-navigation">
+                <div class="row cfix">
+                    <div class="footer-item"><a href="#">Главная</a></div>
+                    <div class="footer-item"><a href="#">Услуги</a></div>
+                    <div class="footer-item"><a href="#">Востановление валов</a></div>
+                    <div class="footer-item"><a href="#">Анилоксовые валы и гильзы</a></div>
+                </div>
+                <div class="row cfix">
+                    <div class="footer-item"><a href="#">Отзывы</a></div>
+                    <div class="footer-item"><a href="#">О компании</a></div>
+                    <div class="footer-item"><a href="#">Полиграфические валы</a></div>
+                    <div class="footer-item"><a href="#">Флексогильзы</a></div>
+                </div>
             </div>
-            <div class="row">
-                <div class="footer-item"><a href="#">Отзывы</a></div>
-                <div class="footer-item"><a href="#">О компании</a></div>
-                <div class="footer-item"><a href="#">Полиграфические валы</a></div>
-                <div class="footer-item"><a href="#">Флексогильзы</a></div>
-            </div>
-        </div>
+        <?php } ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">

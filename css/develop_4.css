@@ -82,7 +82,7 @@ header .header-middle .header-zvonok .button-a {
 }
 
 .footer .footer-addres {
-  margin-left: -20px;
+  margin-left: -31px;
 }
 
 .footer .footer-addres .addres-row {
@@ -116,7 +116,26 @@ header .header-middle .header-zvonok .button-a {
   background: url("../images/footer-icon-mark.png") center center no-repeat;
 }
 
+.footer .footer-top-navigation {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer .footer-top-navigation .row {
+  margin: 0 0 5px;
+}
+
 .footer .footer-top-navigation .footer-item {
   float: left;
   width: 25%;
+}
+
+.footer .footer-top-navigation .footer-item a {
+  font-size: 14px;
+  color: #2f2f2f;
+  text-decoration: underline;
+}
+
+.footer .footer-top-navigation .footer-item a:hover {
+  color: #0693bd;
 }
