@@ -1,5 +1,6 @@
 /* main-styles */
 
+section{overflow: hidden;}
 .title-wrap{font-family: 'Geometria',sans-serif;font-size: 33px;font-weight: 700;color:#2f2f2f;text-align: center;margin-bottom: 20px;text-transform: uppercase;line-height: 40px;
     .title{opacity: 0;transform:translate(0, 25%);-webkit-transform:translate(0, 25%);-moz-transform:translate(0, 25%);-ms-transform:translate(0, 25%);transition:opacity 400ms ease, transform 300ms ease;-webkit-transition:opacity 400ms ease, transform 300ms ease;-moz-transition:opacity 400ms ease, transform 300ms ease;-ms-transition:opacity 400ms ease, transform 300ms ease;
         &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);}
@@ -31,3 +32,9 @@
 }
 
 /* /circle block */
+
+/* production */
+
+
+
+/* /production */

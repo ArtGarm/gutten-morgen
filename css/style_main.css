@@ -1,4 +1,8 @@
 /* main-styles */
+section {
+  overflow: hidden;
+}
+
 .title-wrap {
   font-family: 'Geometria',sans-serif;
   font-size: 33px;
@@ -113,3 +117,5 @@
 }
 
 /* /circle block */
+/* production */
+/* /production */
