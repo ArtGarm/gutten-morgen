@@ -1,0 +1,26 @@
+.header-slider-wrap{
+    .header-slider-wrap-main .header-slider-item{overflow: hidden;
+        .conteiner-content{ position: relative;left: 50%;transform:translate3d(-50%,0,0);-webkit-transform:translate3d(-50%,0,0);
+            img{max-width: none;width: 1920px;}
+            .content-box{ position: absolute; left: 45%; top: 20%;background: none;
+                h1{color:#ffffff; font-family: 'Geometria'; font-weight: bold; font-size: 40px; text-transform: uppercase ;
+                    span{font-size: 60px}
+                    }
+                h2{color:#ffffff; font-family: 'Geometria'; font-size: 24px; text-transform: uppercase ;}
+            &:hover{text-decoration: none;}
+            }
+
+        }
+    }
+    .slick-dots{position: absolute;margin-bottom: 24px;bottom: 0;left: 0;right: 0;text-align: center;
+        li{display: inline-block;margin-right: 8px;
+            &:last-child{margin-right: 0;}
+            button{font-size: 0;border:2px solid #fff;padding:0;margin:0;background-color: transparent;border-radius: 50%;width: 12px;height: 12px;
+                &:focus{outline: none;}
+            }
+            &:hover, &.slick-active{
+                button{background-color: #fff;}
+            }
+        }
+    }
+}
