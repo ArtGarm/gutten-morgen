@@ -32,7 +32,7 @@
   height: 16px;
 }
 
-button, a {
+button.submit-form, a.button-a {
   background: #0bb7de;
   background: linear-gradient(to bottom, #0bb7de 0%, #0078c1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0bb7de', endColorstr='#0078c1',GradientType=0 );
@@ -43,13 +43,13 @@ button, a {
   border-radius: 5px;
 }
 
-button:hover, a:hover {
+button.submit-form:hover, a.button-a:hover {
   background: #0cc9f6;
   background: linear-gradient(to bottom, #0cc9f6 0%, #0099ee 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0cc9f6', endColorstr='#0099ee',GradientType=0 );
 }
 
-button:active, a:active {
+button.submit-form:active, a.button-a:active {
   background: #0078c1;
   background: linear-gradient(to bottom, #0078c1 0%, #0bb7de 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0078c1', endColorstr='#0bb7de',GradientType=0 );
