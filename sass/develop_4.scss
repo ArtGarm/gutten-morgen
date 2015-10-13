@@ -1,7 +1,7 @@
 /*header*/
 header{
     .header-top{background-color: #2f2f2f;
-        .col-md-offset-3{margin-left: 22%;}
+        .col-xs-offset-3{margin-left: 22%;}
         .navigation{
             ul{margin: 0;}
             li{display: inline-block;vertical-align: middle;padding: 7px 18px;}
@@ -56,7 +56,7 @@ header{
 
 /*index*/
 .two-images{
-    .two-images-wrap{display: table;}
+    .two-images-wrap{display: table;margin: 0 auto;}
     .two-images-item{display: table-cell;width: 50%;vertical-align: middle;opacity: 0;transition: .2s opacity ease-out .4s !important;
 
         &.animated{opacity: 1;
@@ -71,16 +71,23 @@ header{
     .two-images-img{
 
     }
-    .two-images-text{color: #fff;padding: 0 25px;max-width: 480px;}
-    .two-images-title{font-weight: bold;font-size: 33px;padding-top: 36px;text-transform: uppercase;}
+    .two-images-text{color: #fff;padding: 0 25px;max-width: 495px;}
+    .two-images-title{font-weight: bold;font-size: 33px;padding-top: 36px;text-transform: uppercase;
+        &.title-big{font-size: 48px;padding-top: 23px;}
+        &.title-big+.two-images-description{padding-top: 18px;}
+    }
     .two-images-description{font-size: 18px;line-height: 22px;padding-top: 22px;
+        h5{text-transform: uppercase;font-size: 14px;line-height: 19px;margin: 0 0 10px;}
+        h4{text-transform: uppercase;font-size: 25px;font-weight: bold;margin-bottom: 15px;line-height: 26px;}
         p{margin-bottom: 20px;}
     }
 }
 .about_company{
     &.poli_about_company{
-
+        .two-images-description h5{margin-bottom: 15px;}
+        .two-images-description {font-size: 16px;}
     }
+
     .about_company-section{background: url("../images/about_company_bg.jpg") center top no-repeat;background-size: cover;vertical-align: top;}
     .two-images-text{color: #fff;padding: 0 25px;max-width: 520px;}
 }
