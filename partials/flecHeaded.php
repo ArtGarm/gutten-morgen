@@ -5,12 +5,14 @@
                 <div class="content-box no-hover-item3 animate-it">
                     <h1> <span> продажа и востановление   <br />   Флексогильз </span></h1>
                     <h2>Работаем по всем регионам  </h2>
+
+                    <a href="#" class="convert-box-button">
+                        <div class="convert-button"> Рассчитать стоимость </div>
+                    </a>
                 </div>
                 <img src="images/header-image3.png" alt="" />
 
-                <a href="#" class="convert-box-button">
-                    <div class="convert-button"> Рассчитать стоимость </div>
-                </a>
+
             </div>
         </div>
     </div>
