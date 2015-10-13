@@ -67,13 +67,13 @@ header{
     .two-images-item{display: table-cell;width: 50%;vertical-align: middle;opacity: 0;transition: .2s opacity ease-out .4s !important;
 
         &.animated{opacity: 1;
-            .ti-left{transform: translateX(0);}
-            .ti-right{transform: translateX(0);}
+            .ti-left{transform: translateX(0);-ms-transform: translateX(0);}
+            .ti-right{transform: translateX(0);-ms-transform: translateX(0);}
         }
     }
     .two-images-item-wrap{
-        &.ti-left{float: right;transform: translateX(-100%);transition: .3s transform ease-out .4s;}
-        &.ti-right{float: left;transform: translateX(100%);transition: .3s transform ease-out .4s;}
+        &.ti-left{float: right;transform: translateX(-100%);transition: .3s transform ease-out .4s;-ms-transform: translateX(-100%);}
+        &.ti-right{float: left;transform: translateX(100%);transition: .3s transform ease-out .4s;-ms-transform: translateX(100%);}
     }
     .two-images-img{
 

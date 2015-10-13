@@ -204,11 +204,13 @@ header .header-middle .header-zvonok .button-a {
 .two-images .two-images-item.animated .ti-left {
   -webkit-transform: translateX(0);
   transform: translateX(0);
+  -ms-transform: translateX(0);
 }
 
 .two-images .two-images-item.animated .ti-right {
   -webkit-transform: translateX(0);
   transform: translateX(0);
+  -ms-transform: translateX(0);
 }
 
 .two-images .two-images-item-wrap.ti-left {
@@ -217,6 +219,7 @@ header .header-middle .header-zvonok .button-a {
   transform: translateX(-100%);
   transition: 0.3s -webkit-transform ease-out 0.4s;
   transition: 0.3s transform ease-out 0.4s;
+  -ms-transform: translateX(-100%);
 }
 
 .two-images .two-images-item-wrap.ti-right {
@@ -225,6 +228,7 @@ header .header-middle .header-zvonok .button-a {
   transform: translateX(100%);
   transition: 0.3s -webkit-transform ease-out 0.4s;
   transition: 0.3s transform ease-out 0.4s;
+  -ms-transform: translateX(100%);
 }
 
 .two-images .two-images-text {
