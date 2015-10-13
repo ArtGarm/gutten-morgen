@@ -17,7 +17,7 @@
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .content-box h1 {
   color: #ffffff;
-  font-family: 'Geometria';
+  font-family: 'Geometria',sans-serif;
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
@@ -32,7 +32,7 @@
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .content-box h2 {
   color: #ffffff;
-  font-family: 'Geometria';
+  font-family: 'Geometria',sans-serif;
   font-size: 24px;
   text-transform: uppercase;
   margin-top: 0;
@@ -87,7 +87,7 @@
   padding-right: 10px;
   background-color: red;
   font-size: 22px;
-  font-family: 'Geometria';
+  font-family: 'Geometria',sans-serif;
   color: #ffffff;
   background: #f9b700;
   background: linear-gradient(#f9b700 0%, #f57600 100%);
