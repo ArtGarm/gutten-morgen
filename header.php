@@ -114,7 +114,7 @@
 		<div class="header-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-7 col-md-offset-3">
+					<div class="col-xs-7 col-xs-offset-3">
 						<nav class="navigation">
 							<ul class="text-center">
 								<li><a href="#">Услуги</a></li>
@@ -130,14 +130,14 @@
 		<div class="header-middle">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-xs-4">
 						<div class="logo">
 							<a href="#">
 								<img src="images/header-logo.png"  alt="">
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 col-md-offset-2 cfix">
+					<div class="col-xs-6 col-xs-offset-2 cfix">
 						<div class="header-tel">
 							<a href="tel:84997071207">
 								<span>8(499)<b>707-12-07</b></span>

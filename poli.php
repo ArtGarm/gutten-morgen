@@ -183,7 +183,7 @@
         </section>
 
         <section>
-
+            <?partial('poli_anil_val');?>
         </section>
 
         <section>
@@ -331,7 +331,7 @@
         </section>
 
         <section>
-            <?partial('about_company');?>
+            <?partial('poli_about_company');?>
         </section>
 
     </div>

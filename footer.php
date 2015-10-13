@@ -1,6 +1,6 @@
 	<div class="footer_placeholder"></div>
 	<footer class="footer">
-        <?php if($act !== "index" || $act !== "none"){?>
+        <?php if($act !== "index" && $act !== "none"){?>
             <div class="container footer-top-navigation animate-section">
                 <div class="row cfix animate-it">
                     <div class="footer-item animate-delay"><a href="#">Главная</a></div>
@@ -17,13 +17,13 @@
             </div>
         <?php } ?>
         <div class="container animate-section">
-            <div class="row animate-it">
-                <div class="col-md-4 animate-delay">
+            <div class="row animate-it footer-bottom">
+                <div class="col-xs-4 animate-delay">
                     <div class="logo">
                         <img src="images/header-logo.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-4 col-md-offset-1 animate-delay">
+                <div class="col-xs-4 col-xs-offset-1 animate-delay">
                     <div class="confidental">
                         <a href="#">Политика конфиденциальности</a>
                     </div>
@@ -33,7 +33,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-2 col-md-offset-1 animate-delay">
+                <div class="col-xs-2 col-xs-offset-1 animate-delay">
                     <div class="footer-addres">
                         <div class="addres-row">
                             <span class="icon footer-tel"></span>
