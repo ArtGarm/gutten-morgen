@@ -24,18 +24,24 @@ header{
     }
 }
 /*footer*/
-.footer{
+.footer{padding-top: 15px;
     .logo{padding-top: 17px;}
-    .confidental{padding-top: 10px;}
+    .confidental{padding-top: 10px;
+        a{transition:all ease .2s;}
+        &:hover a{color:#12A8DF; }
+    }
     .confidental,.created{
         a{font-size: 18px;color: #2f2f2f;text-decoration: none;}
     }
-    .created{text-decoration: underline;padding-top: 5px;
-        &:hover{text-decoration: none;}
+    .created{padding-top: 5px;
+        a{transition:all ease .2s;text-decoration: none;border-bottom: 1px solid #2f2f2f;}
+        &:hover a{border-bottom: none;}
     }
     .footer-addres{margin-left: -31px;
         .addres-row{margin-bottom: 5px;position: relative;}
-        a,p{color: #2f2f2f;font-size: 16px;line-height: 20px;text-decoration: none;}
+        a,p{color: #2f2f2f;font-size: 16px;line-height: 20px;text-decoration: none;transition:all ease .2s;
+            &:hover{opacity: .9}
+        }
         .footer-tel{position: absolute;left: -20px;top: 3px;width: 13px;height: 13px;background: url('../images/footer-icon-tel.png') center center no-repeat;text-decoration: none;}
         .footer-mark{position: absolute;left: -20px;top: 3px;width: 11px;height: 15px;background: url('../images/footer-icon-mark.png') center center no-repeat;}
     }
@@ -47,6 +53,7 @@ header{
             }
         }
     }
+    .footer-bottom{}
     .row{
         &>div{opacity: 0;transition:all ease .3s;
             &.animated{opacity: 1;}
@@ -60,13 +67,13 @@ header{
     .two-images-item{display: table-cell;width: 50%;vertical-align: middle;opacity: 0;transition: .2s opacity ease-out .4s !important;
 
         &.animated{opacity: 1;
-            .ti-left{transform: translateX(0);}
-            .ti-right{transform: translateX(0);}
+            .ti-left{transform: translateX(0);-ms-transform: translateX(0);}
+            .ti-right{transform: translateX(0);-ms-transform: translateX(0);}
         }
     }
     .two-images-item-wrap{
-        &.ti-left{float: right;transform: translateX(-100%);transition: .3s transform ease-out .4s;}
-        &.ti-right{float: left;transform: translateX(100%);transition: .3s transform ease-out .4s;}
+        &.ti-left{float: right;transform: translateX(-100%);transition: .3s transform ease-out .4s;-ms-transform: translateX(-100%);}
+        &.ti-right{float: left;transform: translateX(100%);transition: .3s transform ease-out .4s;-ms-transform: translateX(100%);}
     }
     .two-images-img{
 

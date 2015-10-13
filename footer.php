@@ -1,6 +1,6 @@
 	<div class="footer_placeholder"></div>
 	<footer class="footer">
-        <?php if($act !== "index" || $act !== "none"){?>
+        <?php if($act !== "index" && $act !== "none"){?>
             <div class="container footer-top-navigation animate-section">
                 <div class="row cfix animate-it">
                     <div class="footer-item animate-delay"><a href="#">Главная</a></div>
@@ -17,7 +17,7 @@
             </div>
         <?php } ?>
         <div class="container animate-section">
-            <div class="row animate-it">
+            <div class="row animate-it footer-bottom">
                 <div class="col-xs-4 animate-delay">
                     <div class="logo">
                         <img src="images/header-logo.png" alt="">
