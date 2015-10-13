@@ -100,7 +100,7 @@
         </section>
 
         <section>
-
+            <?partial('poli_anil_val');?>
         </section>
 
         <section>
@@ -192,6 +192,6 @@
             <?partial('about_us');?>
         </section>
         <section>
-
+            <?partial('poli_about_company');?>
         </section>
     </div>

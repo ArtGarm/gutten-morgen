@@ -3,7 +3,7 @@ header .header-top {
   background-color: #2f2f2f;
 }
 
-header .header-top .col-md-offset-3 {
+header .header-top .col-xs-offset-3 {
   margin-left: 22%;
 }
 
@@ -164,6 +164,7 @@ header .header-middle .header-zvonok .button-a {
 /*index*/
 .two-images .two-images-wrap {
   display: table;
+  margin: 0 auto;
 }
 
 .two-images .two-images-item {
@@ -207,7 +208,7 @@ header .header-middle .header-zvonok .button-a {
 .two-images .two-images-text {
   color: #fff;
   padding: 0 25px;
-  max-width: 480px;
+  max-width: 495px;
 }
 
 .two-images .two-images-title {
@@ -217,14 +218,46 @@ header .header-middle .header-zvonok .button-a {
   text-transform: uppercase;
 }
 
+.two-images .two-images-title.title-big {
+  font-size: 48px;
+  padding-top: 23px;
+}
+
+.two-images .two-images-title.title-big + .two-images-description {
+  padding-top: 18px;
+}
+
 .two-images .two-images-description {
   font-size: 18px;
   line-height: 22px;
   padding-top: 22px;
 }
 
+.two-images .two-images-description h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 19px;
+  margin: 0 0 10px;
+}
+
+.two-images .two-images-description h4 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 26px;
+}
+
 .two-images .two-images-description p {
   margin-bottom: 20px;
+}
+
+.about_company.poli_about_company .two-images-description h5 {
+  margin-bottom: 15px;
+}
+
+.about_company.poli_about_company .two-images-description {
+  font-size: 16px;
 }
 
 .about_company .about_company-section {
