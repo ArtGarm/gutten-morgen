@@ -63,8 +63,10 @@ header{
 
 /*index*/
 .two-images{
+    .row{position: relative;}
     .two-images-wrap{display: table;margin: 0 auto;}
-    .two-images-item{display: table-cell;width: 50%;vertical-align: middle;opacity: 0;transition: .2s opacity ease-out .4s !important;
+
+    .two-images-item{display: block;width: 50%;margin-left:50%;vertical-align: middle;opacity: 0;transition: .2s opacity ease-out .4s !important;
 
         &.animated{opacity: 1;
             .ti-left{transform: translateX(0);-ms-transform: translateX(0);}
@@ -75,15 +77,15 @@ header{
         &.ti-left{float: right;transform: translateX(-100%);transition: .3s transform ease-out .4s;-ms-transform: translateX(-100%);}
         &.ti-right{float: left;transform: translateX(100%);transition: .3s transform ease-out .4s;-ms-transform: translateX(100%);}
     }
-    .two-images-img{
-
-    }
+    .two-images-item-img{position: absolute;left: 0;margin-left: 0;top: 0;bottom: 0;}
+    .two-images-img{height: 100%;}
+    .two-images-img img{max-width: none;height: 100%;}
     .two-images-text{color: #fff;padding: 0 25px;max-width: 495px;}
     .two-images-title{font-weight: bold;font-size: 33px;padding-top: 36px;text-transform: uppercase;
         &.title-big{font-size: 48px;padding-top: 23px;}
         &.title-big+.two-images-description{padding-top: 18px;}
     }
-    .two-images-description{font-size: 18px;line-height: 22px;padding-top: 22px;
+    .two-images-description{font-size: 18px;line-height: 22px;
         h5{text-transform: uppercase;font-size: 14px;line-height: 19px;margin: 0 0 10px;}
         h4{text-transform: uppercase;font-size: 25px;font-weight: bold;margin-bottom: 15px;line-height: 26px;}
         p{margin-bottom: 20px;}
@@ -95,10 +97,11 @@ header{
         .two-images-description {font-size: 16px;}
     }
 
-    .about_company-section{background: url("../images/about_company_bg.jpg") center top no-repeat;background-size: cover;vertical-align: top;}
+    .row{background: url("../images/about_company_bg.jpg") center top no-repeat;background-size: cover;vertical-align: top;}
     .two-images-text{color: #fff;padding: 0 25px;max-width: 520px;}
 }
-.anil_val{
+.anil_val{background-color: #f9b300;
     .anil_val-section{vertical-align: top;background-color: #f9b300;}
+    .two-images-description{padding-top: 0 !important;}
     .button-a{line-height: 45px;max-width: 260px;margin-top: 15px;margin-bottom: 15px;}
 }

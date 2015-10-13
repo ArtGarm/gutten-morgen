@@ -1,7 +1,7 @@
 <div class="container-fluid two-images anil_val animate-section">
     <div class="row">
-        <div class="two-images-wrap">
-            <div class="two-images-item cfix animate-it">
+        <div class="container two-images-wrap">
+            <div class="two-images-item cfix animate-it two-images-item-img">
                 <div class="two-images-item-wrap ti-left ">
                     <div class="two-images-img">
                         <img src="images/anil_val_img.jpg" alt="">

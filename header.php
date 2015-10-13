@@ -16,20 +16,20 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
 
-	<link rel="stylesheet" href="css/tuesdayAnimate.css" media='all' />
+
 	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=cyrillic' rel='stylesheet' type='text/css'>
 
 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 
 	<!-- bootstrap -->
 
-	<script src="js/bootstrap.js" type="text/javascript"></script>
+
 
 	<!-- /bootstrap -->
 
 	<script src="js/selectivizr-min.js" type="text/javascript"></script>
 
-	<link rel="stylesheet" type="text/css" href="css/jquery.znice.css" media="all" />
+
 	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
 	<!--<script src="js/jquery.znice.validate.js" type="text/javascript"></script>
 	<script src="js/jquery.znice.js" type="text/javascript"></script>-->
@@ -51,30 +51,10 @@
 	<script src="js/slick.js" type="text/javascript"></script>
 <!-- sliders -->
 
-<!-- jScrollPane -->
-	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-<!-- jScrollPane -->
 
-<!-- jandexMaps -->
-	<style>
-		.map1{width: 100%;height: 350px;}
-		.mapes{height: 350px;margin-bottom: 15px;}
-		.list{width: 200px;float: left;}
-		.list-item.hover{background-color: red;}
-		.checkboxes{float: right;margin-right: 10px;}
-		.checkboxes label{display: inline-block;margin-right: 10px;}
-		.clear{clear: both;}
-	</style>
 
-	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-	<script src="js/jandexMapsScr.js" type="text/javascript"></script>
-<!-- jandexMaps -->
 
 <!-- remove Files -->
-	<!--<script src="js/myalert.js" type="text/javascript"></script>
-	<script src="develop/autocssrenew.js" type="text/javascript"></script>-->
 
     <script src="js/develop_2.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="css/develop_2.css" media="all" />

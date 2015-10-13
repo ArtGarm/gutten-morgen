@@ -184,14 +184,19 @@ header .header-middle .header-zvonok .button-a {
 }
 
 /*index*/
+.two-images .row {
+  position: relative;
+}
+
 .two-images .two-images-wrap {
   display: table;
   margin: 0 auto;
 }
 
 .two-images .two-images-item {
-  display: table-cell;
+  display: block;
   width: 50%;
+  margin-left: 50%;
   vertical-align: middle;
   opacity: 0;
   transition: 0.2s opacity ease-out 0.4s !important;
@@ -231,6 +236,23 @@ header .header-middle .header-zvonok .button-a {
   -ms-transform: translateX(100%);
 }
 
+.two-images .two-images-item-img {
+  position: absolute;
+  left: 0;
+  margin-left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.two-images .two-images-img {
+  height: 100%;
+}
+
+.two-images .two-images-img img {
+  max-width: none;
+  height: 100%;
+}
+
 .two-images .two-images-text {
   color: #fff;
   padding: 0 25px;
@@ -256,7 +278,6 @@ header .header-middle .header-zvonok .button-a {
 .two-images .two-images-description {
   font-size: 18px;
   line-height: 22px;
-  padding-top: 22px;
 }
 
 .two-images .two-images-description h5 {
@@ -286,7 +307,7 @@ header .header-middle .header-zvonok .button-a {
   font-size: 16px;
 }
 
-.about_company .about_company-section {
+.about_company .row {
   background: url("../images/about_company_bg.jpg") center top no-repeat;
   background-size: cover;
   vertical-align: top;
@@ -298,9 +319,17 @@ header .header-middle .header-zvonok .button-a {
   max-width: 520px;
 }
 
+.anil_val {
+  background-color: #f9b300;
+}
+
 .anil_val .anil_val-section {
   vertical-align: top;
   background-color: #f9b300;
+}
+
+.anil_val .two-images-description {
+  padding-top: 0 !important;
 }
 
 .anil_val .button-a {

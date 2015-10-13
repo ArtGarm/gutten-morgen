@@ -7,6 +7,7 @@
 .header-slider-wrap .header-slider-wrap-main .header-slider-item img {
   max-width: none;
   width: 1920px;
+  margin: 0 auto;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item .content-box {

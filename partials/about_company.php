@@ -1,7 +1,7 @@
 <div class="container-fluid two-images about_company animate-section">
     <div class="row">
-        <div class="two-images-wrap">
-            <div class="two-images-item cfix animate-it">
+        <div class="container two-images-wrap">
+            <div class="two-images-item cfix animate-it two-images-item-img">
                 <div class="two-images-item-wrap ti-left">
                     <div class="two-images-img">
                         <img src="images/about_company_img.jpg" alt="">
