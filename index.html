@@ -1,0 +1,605 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta id="viewport" name="viewport" content="width=960, user-scalable=no">
+	<title></title>
+
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+
+	<link rel="stylesheet" href="css/bootstrap.css" media="all" />
+	<link rel="stylesheet" href="css/bootstrap-theme.css" media="all" />
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+
+	<link rel="stylesheet" href="css/tuesdayAnimate.css" media='all' />
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=cyrillic' rel='stylesheet' type='text/css'>
+
+	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+
+	<!-- bootstrap -->
+
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+
+	<!-- /bootstrap -->
+
+	<script src="js/selectivizr-min.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.znice.css" media="all" />
+	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
+	<!--<script src="js/jquery.znice.validate.js" type="text/javascript"></script>
+	<script src="js/jquery.znice.js" type="text/javascript"></script>-->
+
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />
+	<script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
+
+	<script src="js/modernizr.js" type="text/javascript"></script>
+	<script src="js/jquery.watermark.min.js" type="text/javascript"></script>
+
+<!-- mask for inputs -->
+
+	<script src="js/maskInput.js" type="text/javascript"></script>
+
+<!-- /mask for inputs -->
+
+<!-- sliders -->
+	<link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
+	<script src="js/slick.js" type="text/javascript"></script>
+<!-- sliders -->
+
+<!-- jScrollPane -->
+	<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<!-- jScrollPane -->
+
+<!-- jandexMaps -->
+	<style>
+		.map1{width: 100%;height: 350px;}
+		.mapes{height: 350px;margin-bottom: 15px;}
+		.list{width: 200px;float: left;}
+		.list-item.hover{background-color: red;}
+		.checkboxes{float: right;margin-right: 10px;}
+		.checkboxes label{display: inline-block;margin-right: 10px;}
+		.clear{clear: both;}
+	</style>
+
+	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="js/jandexMapsScr.js" type="text/javascript"></script>
+<!-- jandexMaps -->
+
+<!-- remove Files -->
+	<!--<script src="js/myalert.js" type="text/javascript"></script>
+	<script src="develop/autocssrenew.js" type="text/javascript"></script>-->
+
+    <script src="js/develop_2.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/develop_2.css" media="all" />
+
+    <script src="js/develop_3.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/develop_3.css" media="all" />
+
+    <script src="js/develop_4.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/develop_4.css" media="all" />
+
+    <script src="js/develop_5.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/develop_5.css" media="all" />
+<!-- remove Files -->
+
+	<link rel="stylesheet" href="css/style_main.css" media="all" />
+	<script src="js/scr.js" type="text/javascript"></script>
+
+	<!--[if lt IE 9]>
+		<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+		document.createElement('time');
+		</script>
+		<script src="js/pie.js" type="text/javascript"></script>
+	<![endif]-->
+
+	<!--[if lt IE 8]><script src="js/oldie/warning.js"></script><script>window.onload=function(){e("js/oldie/")}</script><![endif]-->
+</head>
+<body><script type='text/javascript' id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.2.9.11.js'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+
+	
+
+<div class="zHiddenBlock">
+	<div id="call-popup">
+		<div class="call-popup">
+			<h2>Оставьте заявку</h2>
+			<p>И мы свяжемся с Вами в ближайшее время</p>
+			<form action="ajax.php" method="post" class="call-form">
+				<div class="input-wrap name">
+					<input type="text" name="name" placeholder="Ваше имя" required="required"/>
+				</div>
+				<div class="input-wrap phone">
+					<input type="text" name="phone" placeholder="Ваш номер телефона" required="required"/>
+				</div>
+				<div class="input-wrap-submit">
+					<button type="submit" class="submit-form"><span>Отправить</span></button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="call_success">
+        <div class="call-success">
+             <div class="call_success">
+                 <div class="call-title">Спасибо за заявку!</div>
+                 <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+             </div>
+        </div>
+    </div>
+</div>	<header class="header">
+
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-md-offset-3">
+						<nav class="navigation">
+							<ul class="text-center">
+								<li><a href="#">Услуги</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-middle">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="logo">
+							<a href="#">
+								<img src="images/header-logo.png"  alt="">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 col-md-offset-2 cfix">
+						<div class="header-tel">
+							<a href="tel:84997071207">
+								<span>8(499)<b>707-12-07</b></span>
+							</a>
+						</div>
+						<div class="header-zvonok">
+							<a href="#call-popup" class="button-a fancybox_popup">
+								<span>Заказать звонок</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-bottom">
+			
+
+<div class="header-slider-wrap">
+    <div class="header-slider-wrap-main">
+        <div class="header-slider-item">
+            <div class="conteiner-content">
+                <a href="#" class="content-box">
+                    <h1>Ремонт и продажа <br />  <span> анилоксовых валов </span></h1>
+                    <h2>Работаем со всеми регионами</h2>
+                </a>
+                <img src="images/slider-image.png" alt="" />
+            </div>
+        </div>
+        <div class="header-slider-item">
+            <div class="conteiner-content">
+                <a href="#" class="content-box">
+                    <h1>Ремонт и продажа <br />  <span> анилоксовых валов </span></h1>
+                    <h2>Работаем со всеми регионами</h2>
+                </a>
+                <img src="images/slider-image.png" alt="" />
+            </div>
+        </div>
+        <div class="header-slider-item">
+            <div class="conteiner-content">
+                <a href="#" class="content-box">
+                    <h1>Ремонт и продажа <br />  <span> анилоксовых валов </span></h1>
+                    <h2>Работаем со всеми регионами</h2>
+                </a>
+                <img src="images/slider-image.png" alt="" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+		</div>
+
+	</header>	<div class="main">
+		<section>
+			
+
+<div class="top-form-wrap">
+	<div class="top-form container">
+		<div class="title-wrap white animate-section">
+			<div class="title animate-it">
+				<p>Ремонт анилоксовых валов</p>
+				<p>по специальной цене</p>
+			</div>
+		</div>
+		<div class="form-wrap row">
+			<form action="" mathod="POST" class="form-top animate-section">
+				<div class="input-wrap col-xs-3 name animate-delay">
+					<input type="text" name="name" placeholder="Введите Ваше имя" required="required">
+				</div>
+				<div class="input-wrap col-xs-3 phone animate-delay">
+					<input type="text" name="phone" placeholder="Введите Ваш телефон" required="required">
+				</div>
+				<div class="input-wrap col-xs-3 input-submit animate-delay">
+					<button type="submit" class="submit-form"><span>Заказать</span></button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+		</section>
+
+		<section>
+			<div class="circles-block">
+				<div class="title-wrap animate-section">
+					<div class="title animate-it">
+						<p>Что делает выгодным и удобным</p>
+						<p>сотрудничество с нами?</p>
+					</div>
+				</div>
+				<div class="container circles-block-wrap">
+					<div class="row animate-section">
+						<div class="col-md-4 animate-delay">
+							<div class="circle-img-wrap">
+								<img src="images/circle-img1.png" alt="" />
+							</div>
+							<div class="circle-wrap-description">
+								<p><span>Восстановление анилоксовых валов</span> до состояния новых, с хромированием шеек и торцов</p>
+							</div>
+						</div>
+						<div class="col-md-4 animate-delay">
+							<div class="circle-img-wrap">
+								<img src="images/circle-img2.png" alt="" />
+							</div>
+							<div class="circle-wrap-description">
+								<p><span>Различные виды гравировок:</span> гексоганальная, спиральная, реверсивная</p>
+							</div>
+						</div>
+						<div class="col-md-4 animate-delay">
+							<div class="circle-img-wrap">
+								<img src="images/circle-img3.png" alt="" />
+							</div>
+							<div class="circle-wrap-description">
+								<p><span>Любая конструкция вала на заказ :</span> цельнометалический, пустотелый, из облегченного сплава</p>
+							</div>
+						</div>
+					</div>
+					<div class="row animate-section">
+						<div class="col-md-4 animate-delay">
+							<div class="circle-img-wrap">
+								<img src="images/circle-img4.png" alt="" />
+							</div>
+							<div class="circle-wrap-description">
+								<p><span>Объем ячеек</span> от 1,8 см3\м2 до 60 см3\м2 с точностью +-4%</p>
+							</div>
+						</div>
+						<div class="col-md-4 animate-delay">
+							<div class="circle-img-wrap">
+								<img src="images/circle-img5.png" alt="" />
+							</div>
+							<div class="circle-wrap-description">
+								<p><span>Твердость керамики</span> до 1700 HV, пористость менее 1%</p>
+							</div>
+						</div>
+						<div class="col-md-4 animate-delay">
+							<div class="circle-img-wrap">
+								<img src="images/circle-img6.png" alt="" />
+							</div>
+							<div class="circle-wrap-description">
+								<p><span>Линиатуры</span> от 10 до 800 lin/cm</p>
+							</div>
+						</div>
+					</div>
+					<div class="row animate-section">
+						<div class="col-md-4 animate-delay">
+							<div class="circle-img-wrap">
+								<img src="images/circle-img7.png" alt="" />
+							</div>
+							<div class="circle-wrap-description">
+								<p><span>Сертификат контроля качества</span> каждого анилокса с фактическими параметрами</p>
+							</div>
+						</div>
+						<div class="col-md-4 animate-delay">
+							<div class="circle-img-wrap">
+								<img src="images/circle-img8.png" alt="" />
+							</div>
+							<div class="circle-wrap-description">
+								<p><span>Подбор гильз</span> под Ваши задачи и бюджет</p>
+							</div>
+						</div>
+						<div class="col-md-4 animate-delay">
+							<div class="circle-img-wrap">
+								<img src="images/circle-img9.png" alt="" />
+							</div>
+							<div class="circle-wrap-description">
+								<p><span>Нанесение антикоррозийного слоя</span> – как следствие</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			
+
+<div class="container-fluid two-images anil_val animate-section">
+    <div class="row">
+        <div class="two-images-wrap">
+            <div class="two-images-item cfix animate-it">
+                <div class="two-images-item-wrap ti-left ">
+                    <div class="two-images-img">
+                        <img src="images/anil_val_img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="two-images-item cfix anil_val-section animate-it">
+                <div class="two-images-item-wrap ti-right ">
+                    <div class="two-images-text">
+                        <div class="two-images-title">
+                            Анилоксовые валы
+                        </div>
+                        <div class="two-images-description">
+                            <p>Повседневная практика показывает, что постоянный количественный рост и сфера нашей активности требуют от нас анализа соответствующий условий активизации. </p>
+                            <p>Товарищи! начало повседневной работы по формированию позиции играет важную роль в формировании соответствующий условий активизации. Идейные соображения высшего порядка, а также постоянное пропагандистское обеспечение нашей деятельности.</p>
+
+                            <a href="#" class="button-a">
+                                <span>Заказать</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>		</section>
+
+
+		<section>
+			<div class="production-block">
+				<div class="title-wrap animate-section">
+					<div class="title animate-it">
+						<p>Услуги и продукция</p>
+					</div>
+				</div>
+				<div class="container production-container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="row animate-section">
+								<div class="production-item cfix animate-it">
+									<div class="col-md-4">
+										<div class="production-item-img animate-it">
+											<img src="images/production-image1.png" alt="" />
+										</div>
+									</div>
+									<div class="col-md-7 col-md-offset-1">
+										<div class="production-item-content animate-it">
+											<div class="production-item-title">Восстановление валов</div>
+											<div class="production-item-text">
+												<p>Разнообразный и богатый опыт сложившаяся структура организации требуют от нас анализа новых предложений. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке систем массового участия. Разнообразный и богатый опыт укрепление и развитие структуры представляет.</p>
+											</div>
+											<div class="production-item-button">
+												<a href="#" class="button-a"><span>Подробнее</span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="row animate-section">
+								<div class="production-item cfix animate-it">
+									<div class="col-md-4">
+										<div class="production-item-img animate-it">
+											<img src="images/production-image2.png" alt="" />
+										</div>
+									</div>
+									<div class="col-md-7 col-md-offset-1">
+										<div class="production-item-content animate-it">
+											<div class="production-item-title">Поставка новых валов</div>
+											<div class="production-item-text">
+												<p>Разнообразный и богатый опыт сложившаяся структура организации требуют от нас анализа новых предложений. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке систем массового участия. Разнообразный и богатый опыт укрепление и развитие структуры представляет.</p>
+											</div>
+											<div class="production-item-button">
+												<a href="#" class="button-a"><span>Подробнее</span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="row animate-section">
+								<div class="production-item cfix animate-it">
+									<div class="col-md-4">
+										<div class="production-item-img animate-it">
+											<img src="images/production-image3.png" alt="" />
+										</div>
+									</div>
+									<div class="col-md-7 col-md-offset-1">
+										<div class="production-item-content animate-it">
+											<div class="production-item-title">поставка флексогильз</div>
+											<div class="production-item-text"><p>Разнообразный и богатый опыт сложившаяся структура организации требуют от нас анализа новых предложений. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке систем массового участия. Разнообразный и богатый опыт укрепление и развитие структуры представляет.</p></div>
+											<div class="production-item-button">
+												<a href="#" class="button-a"><span>Подробнее</span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section>
+
+		</section>
+		<section>
+			
+
+<div class="bottom-form-wrap">
+	<div class="bottom-form container">
+		<div class="title-wrap white animate-section">
+			<div class="title animate-it">
+				<p>Остались вопросы?</p>
+			</div>
+		</div>
+		<div class="form-wrap row">
+			<form action="" mathod="POST" class="form-bottom animate-section">
+				<div class="input-wrap col-xs-3 name animate-delay">
+					<input type="text" name="name" placeholder="Ваше имя" required="required">
+				</div>
+				<div class="input-wrap col-xs-3 phone animate-delay">
+					<input type="text" name="phone" placeholder="Ваш номер телефон" required="required">
+				</div>
+				<div class="input-wrap col-xs-3 input-submit animate-delay">
+					<button type="submit" class="submit-form consult"><span>Получить консультацию</span></button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>		</section>
+		<section>
+			
+
+ <div class="about-us">
+    <div class="title-wrap animate-section">
+        <div class="title animate-it">
+        <p>Клиенты о нас</p>
+
+        </div>
+    </div>
+    <div class="container animate-section">
+        <div class="row animate-it">
+            <div class="col-md-3 foto-block-about">
+                <div class="white-around-about">
+                    <div class="container-for-foto">
+                        <img class="foto-for-about-us" src="images/foto-for-about-us.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 text-block-about">
+            <div class="text-bordered-block">
+                <div class="text-about-title"><p><b>Романов Виктор Иванович,</b>бухгалтер, полиграфия “ВИС”</p></div>
+                <div class="text-about"><p>“Равным образом новая модель организационной деятельности способствует подготовки и реализации новых предложений. С другой стороны дальнейшее развитие различных форм деятельности позволяет оценить значение форм развития. ”</p></div>
+            </div>
+            <div class="text-arrow"></div>
+            </div>
+        </div>
+    </div>
+</div>		</section>
+		<section>
+			
+
+<div class="container-fluid two-images about_company animate-section">
+    <div class="row">
+        <div class="two-images-wrap">
+            <div class="two-images-item cfix animate-it">
+                <div class="two-images-item-wrap ti-left">
+                    <div class="two-images-img">
+                        <img src="images/about_company_img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="two-images-item cfix about_company-section animate-it">
+                <div class="two-images-item-wrap ti-right ">
+                    <div class="two-images-text">
+                        <div class="two-images-title">
+                            О компании
+                        </div>
+                        <div class="two-images-description">
+                            <p>Повседневная практика показывает, что постоянный количественный рост и сфера нашей активности требуют от нас анализа соответствующий условий активизации. </p>
+                            <p>Товарищи! начало повседневной работы по формированию позиции играет важную роль в формировании соответствующий условий активизации. Идейные соображения высшего порядка, а также постоянное пропагандистское обеспечение нашей деятельности.</p>
+                            <p>Представляет собой интересный эксперимент проверки позиций, занимаемых участниками в отношении поставленных задач. Идейные соображения высшего порядка, а также укрепление и </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>		</section>
+	</div>	<div class="footer_placeholder"></div>
+	<footer class="footer">
+                    <div class="container footer-top-navigation animate-section">
+                <div class="row cfix animate-it">
+                    <div class="footer-item animate-delay"><a href="#">Главная</a></div>
+                    <div class="footer-item animate-delay"><a href="#">Услуги</a></div>
+                    <div class="footer-item animate-delay"><a href="#">Востановление валов</a></div>
+                    <div class="footer-item animate-delay"><a href="#">Анилоксовые валы и гильзы</a></div>
+                </div>
+                <div class="row cfix animate-it">
+                    <div class="footer-item animate-delay"><a href="#">Отзывы</a></div>
+                    <div class="footer-item animate-delay"><a href="#">О компании</a></div>
+                    <div class="footer-item animate-delay"><a href="#">Полиграфические валы</a></div>
+                    <div class="footer-item animate-delay"><a href="#">Флексогильзы</a></div>
+                </div>
+            </div>
+                <div class="container animate-section">
+            <div class="row animate-it">
+                <div class="col-md-4 animate-delay">
+                    <div class="logo">
+                        <img src="images/header-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-1 animate-delay">
+                    <div class="confidental">
+                        <a href="#">Политика конфиденциальности</a>
+                    </div>
+                    <div class="created">
+                        <a href="smartlending.ru" target="_blank">
+                            Разработано в smartlending.ru
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-1 animate-delay">
+                    <div class="footer-addres">
+                        <div class="addres-row">
+                            <span class="icon footer-tel"></span>
+                            <a href="tel:84997071207">
+                                8&nbsp;(499)&nbsp;707-12-07
+                            </a>
+                        </div>
+                        <div class="addres-row">
+                            <p>
+                                <span class="icon footer-mark"></span>
+                                <b>г.Москва</b>
+                            </p>
+                            <p>Погонный проезд 6,</p>
+                            <p>корп.1, офис:53</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</footer>
+</body>
+</html>
