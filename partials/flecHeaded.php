@@ -6,7 +6,7 @@
                     <h1> <span> продажа и востановление   <br />   Флексогильз </span></h1>
                     <h2>Работаем по всем регионам  </h2>
 
-                    <a href="#" class="convert-box-button">
+                    <a href="#call-popup" class="convert-box-button fancybox_popup">
                         <div class="convert-button"> Рассчитать стоимость </div>
                     </a>
                 </div>

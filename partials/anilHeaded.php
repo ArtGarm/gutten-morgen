@@ -5,7 +5,7 @@
                 <div class="content-box no-hover-item3 animate-it">
                     <h1>Ремонт и продажа <br />  <span> анилоксовых валов <br /> и гильз</span></h1>
                     <h2>Работаем со всеми регионами</h2>
-                    <a href="#" class="convert-box-button">
+                    <a href="#call-popup" class="convert-box-button fancybox_popup">
                         <div class="convert-button"> Рассчитать стоимость </div>
                     </a>
                 </div>

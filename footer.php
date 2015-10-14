@@ -1,6 +1,6 @@
 	<div class="footer_placeholder"></div>
 	<footer class="footer">
-        <?php if($act !== "index" && $act !== "none"){?>
+
             <div class="container footer-top-navigation animate-section">
                 <div class="row cfix animate-it">
                     <div class="footer-item animate-delay"><a href="#">Главная</a></div>
@@ -15,7 +15,7 @@
                     <div class="footer-item animate-delay"><a href="#">Флексогильзы</a></div>
                 </div>
             </div>
-        <?php } ?>
+
         <div class="container animate-section">
             <div class="row animate-it footer-bottom">
                 <div class="col-xs-4 animate-delay">
@@ -29,7 +29,7 @@
                     </div>
                     <div class="created">
                         <a href="smartlending.ru" target="_blank">
-                            Разработано в smartlending.ru
+                            Разработано в smartlanding.ru
                         </a>
                     </div>
                 </div>

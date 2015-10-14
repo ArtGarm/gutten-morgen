@@ -141,8 +141,13 @@
 			 }
 
 			if($act == "index" || $act == "none"){
+				partial('mainHeaded');
+			}
+
+			if($act == "vanil" ){
 				partial('sliderHeaded');
 			}
+
 
 
 			if($act == "poli"){

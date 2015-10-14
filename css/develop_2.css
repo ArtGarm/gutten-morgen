@@ -53,15 +53,6 @@
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item a:hover {
   text-decoration: none;
-  text-shadow: 2px 2px 2px rgba(215, 155, 0, 0.86);
-}
-
-.header-slider-wrap .header-slider-wrap-main .header-slider-item a:hover h1 {
-  color: orange;
-}
-
-.header-slider-wrap .header-slider-wrap-main .header-slider-item a:hover h2 {
-  color: orange;
 }
 
 .header-slider-wrap .header-slider-wrap-main .header-slider-item a:focus {
@@ -261,3 +252,101 @@
   -moz-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
 }
+
+.no-hover-item4 {
+  top: 28%;
+  width: 60%;
+  max-width: 960px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  left: 50%;
+  box-sizing: border-box;
+}
+
+.no-hover-item4 > h1 {
+  font-size: 33px !important;
+}
+
+/* about us block */
+.about-us {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about-us .title-wrap {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.about-us .container-slider {
+  padding-bottom: 50px;
+  opacity: 0;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+}
+
+.about-us .container-slider.animated {
+  opacity: 1;
+}
+
+.about-us .container-slider .client-slider {
+  outline: none;
+}
+
+.about-us .container-slider .client-slider .container-for-foto {
+  display: inline-block;
+  width: 28%;
+}
+
+.about-us .container-slider .client-slider .text-block-about {
+  display: inline-block;
+  vertical-align: top;
+  width: 71%;
+  border-radius: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.about-us .container-slider .client-slider .text-block-about .text-bordered-block {
+  padding: 45px 30px 68px 50px;
+  float: right;
+  border-style: dashed;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #07afda;
+  margin-right: 2px;
+}
+
+.about-us .container-slider .client-slider .text-block-about .text-bordered-block .text-about-title p {
+  margin-bottom: 14px;
+  color: #07afda;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.about-us .container-slider .client-slider .text-block-about .text-bordered-block .text-about p {
+  color: #2f2f2f;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.about-us .container-slider .client-slider .text-block-about .text-arrow {
+  position: absolute;
+  left: -10px;
+  top: 46%;
+  width: 22px;
+  height: 22px;
+  border-style: dashed;
+  border-left-width: 1px;
+  border-top-width: 1px;
+  border-color: #07afda;
+  background-color: #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* about us block */

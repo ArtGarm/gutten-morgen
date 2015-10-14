@@ -1,621 +1,706 @@
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta id="viewport" name="viewport" content="width=1280">
-        <title></title>
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
-        <link rel="stylesheet" href="css/bootstrap.css" media="all" />
-        <link rel="stylesheet" href="css/bootstrap-theme.css" media="all" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=cyrillic' rel='stylesheet' type='text/css'>
-        <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
-        <!-- bootstrap -->
-        <!-- /bootstrap -->
-        <script src="js/selectivizr-min.js" type="text/javascript"></script>
-        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
-        <!--<script src="js/jquery.znice.validate.js" type="text/javascript"></script>
-            <script src="js/jquery.znice.js" type="text/javascript"></script>-->
-        <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />
-        <script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
-        <script src="js/modernizr.js" type="text/javascript"></script>
-        <script src="js/jquery.watermark.min.js" type="text/javascript"></script>
-        <!-- mask for inputs -->
-        <script src="js/maskInput.js" type="text/javascript"></script>
-        <!-- /mask for inputs -->
-        <!-- sliders -->
-        <link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
-        <script src="js/slick.js" type="text/javascript"></script>
-        <!-- sliders -->
-        <!-- remove Files -->
-        <script src="js/develop_2.js" type="text/javascript"></script>
-        <link rel="stylesheet" type="text/css" href="css/develop_2.css" media="all" />
-        <script src="js/develop_3.js" type="text/javascript"></script>
-        <link rel="stylesheet" type="text/css" href="css/develop_3.css" media="all" />
-        <script src="js/develop_4.js" type="text/javascript"></script>
-        <link rel="stylesheet" type="text/css" href="css/develop_4.css" media="all" />
-        <script src="js/develop_5.js" type="text/javascript"></script>
-        <link rel="stylesheet" type="text/css" href="css/develop_5.css" media="all" />
-        <!-- remove Files -->
-        <link rel="stylesheet" href="css/style_main.css" media="all" />
-        <script src="js/scr.js" type="text/javascript"></script>
-        <!--[if lt IE 9]>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta id="viewport" name="viewport" content="width=1280">
+    <title></title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+
+    <link rel="stylesheet" href="css/bootstrap.css" media="all" />
+    <link rel="stylesheet" href="css/bootstrap-theme.css" media="all" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+
+
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=cyrillic' rel='stylesheet' type='text/css'>
+
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+
+    <!-- bootstrap -->
+
+
+
+    <!-- /bootstrap -->
+
+    <script src="js/selectivizr-min.js" type="text/javascript"></script>
+
+
+    <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+    <!--<script src="js/jquery.znice.validate.js" type="text/javascript"></script>
+    <script src="js/jquery.znice.js" type="text/javascript"></script>-->
+
+    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />
+    <script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
+
+    <script src="js/modernizr.js" type="text/javascript"></script>
+    <script src="js/jquery.watermark.min.js" type="text/javascript"></script>
+
+<!-- mask for inputs -->
+
+    <script src="js/maskInput.js" type="text/javascript"></script>
+
+<!-- /mask for inputs -->
+
+<!-- sliders -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
+    <script src="js/slick.js" type="text/javascript"></script>
+<!-- sliders -->
+
+
+
+
+<!-- remove Files -->
+
+    <script src="js/develop_2.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/develop_2.css" media="all" />
+
+    <script src="js/develop_3.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/develop_3.css" media="all" />
+
+    <script src="js/develop_4.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/develop_4.css" media="all" />
+
+    <script src="js/develop_5.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/develop_5.css" media="all" />
+<!-- remove Files -->
+
+    <link rel="stylesheet" href="css/style_main.css" media="all" />
+    <script src="js/scr.js" type="text/javascript"></script>
+
+    <!--[if lt IE 9]>
         <script>
-            document.createElement('header');
-            document.createElement('nav');
-            document.createElement('section');
-            document.createElement('article');
-            document.createElement('aside');
-            document.createElement('footer');
-            document.createElement('time');
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+        document.createElement('time');
         </script>
         <script src="js/pie.js" type="text/javascript"></script>
-        <![endif]-->
-        <!--[if lt IE 8]><script src="js/oldie/warning.js"></script><script>window.onload=function(){e("js/oldie/")}</script><![endif]-->
-    </head>
-    <body>
-        <script type='text/javascript' id="__bs_script__">//<![CDATA[
-            document.write("<script async src='/browser-sync/browser-sync-client.2.9.11.js'><\/script>".replace("HOST", location.hostname));
-            //]]>
-        </script>
-        <div class="zHiddenBlock">
-            <div id="call-popup">
-                <div class="call-popup">
-                    <h2>Оставьте заявку</h2>
-                    <p>И мы свяжемся с Вами в ближайшее время</p>
-                    <form action="ajax.php" method="post" class="call-form">
-                        <div class="input-wrap name">
-                            <input type="text" name="name" placeholder="Ваше имя" required="required"/>
-                        </div>
-                        <div class="input-wrap phone">
-                            <input type="text" name="phone" placeholder="Ваш номер телефона" required="required"/>
-                        </div>
-                        <div class="input-wrap-submit">
-                            <button type="submit" class="submit-form"><span>Отправить</span></button>
-                        </div>
-                    </form>
+    <![endif]-->
+
+    <!--[if lt IE 8]><script src="js/oldie/warning.js"></script><script>window.onload=function(){e("js/oldie/")}</script><![endif]-->
+</head>
+<body>
+
+
+<div class="zHiddenBlock">
+    <div id="call-popup">
+        <div class="call-popup">
+            <h2>Оставьте заявку</h2>
+            <p>И мы свяжемся с Вами в ближайшее время</p>
+            <form action="ajax.php" method="post" class="call-form">
+                <div class="input-wrap name">
+                    <input type="text" name="name" placeholder="Ваше имя" required="required"/>
                 </div>
-            </div>
-            <div id="call_success">
-                <div class="call-success">
-                    <div class="call_success">
-                        <div class="call-title">Спасибо за заявку!</div>
-                        <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+                <div class="input-wrap phone">
+                    <input type="text" name="phone" placeholder="Ваш номер телефона" required="required"/>
+                </div>
+                <div class="input-wrap-submit">
+                    <button type="submit" class="submit-form"><span>Отправить</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="call_success">
+        <div class="call-success">
+             <div class="call_success">
+                 <div class="call-title">Спасибо за заявку!</div>
+                 <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+             </div>
+        </div>
+    </div>
+</div>  <header class="header">
+
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-7 col-xs-offset-3">
+                        <nav class="navigation">
+                            <ul class="text-center">
+                                <li><a href="#">Услуги</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
         </div>
-        <header class="header">
-            <div class="header-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-7 col-xs-offset-3">
-                            <nav class="navigation">
-                                <ul class="text-center">
-                                    <li><a href="#">Услуги</a></li>
-                                    <li><a href="#">Отзывы</a></li>
-                                    <li><a href="#">О компании</a></li>
-                                    <li><a href="#">Контакты</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="header-middle">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-4">
-                            <div class="logo">
-                                <a href="#">
+        <div class="header-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="logo">
+                            <a href="#">
                                 <img src="images/header-logo.png"  alt="">
-                                </a>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col-xs-6 col-xs-offset-2 cfix">
-                            <div class="header-tel">
-                                <a href="tel:84997071207">
+                    </div>
+                    <div class="col-xs-6 col-xs-offset-2 cfix">
+                        <div class="header-tel">
+                            <a href="tel:84997071207">
                                 <span>8(499)<b>707-12-07</b></span>
-                                </a>
-                            </div>
-                            <div class="header-zvonok">
-                                <a href="#call-popup" class="button-a fancybox_popup">
+                            </a>
+                        </div>
+                        <div class="header-zvonok">
+                            <a href="#call-popup" class="button-a fancybox_popup">
                                 <span>Заказать звонок</span>
-                                </a>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="header-bottom">
-                <div class="header-slider-wrap">
-                    <div class="header-slider-wrap-main">
-                        <div class="header-slider-item">
-                            <div class="conteiner-content animate-section">
-                                <div class="content-box no-hover-item2 animate-it">
-                                    <h3>  Производство и востановление <br /> полиграфических валов  </h3>
-                                    <a href="#" class="convert-box-button">
-                                        <div class="convert-button"> Рассчитать стоимость </div>
-                                    </a>
-                                </div>
-                                <img src="images/header-image2.png" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="main">
-            <section>
-                <div class="top-form-wrap">
-                    <div class="top-form container">
-                        <div class="title-wrap white animate-section">
-                            <div class="title animate-it">
-                                <p>Скидка на первый заказ 15%</p>
-                            </div>
-                        </div>
-                        <div class="form-wrap row">
-                            <form action="" mathod="POST" class="form-top animate-section">
-                                <div class="input-wrap col-xs-3 name animate-delay">
-                                    <input type="text" name="name" placeholder="Введите Ваше имя" required="required">
-                                </div>
-                                <div class="input-wrap col-xs-3 phone animate-delay">
-                                    <input type="text" name="phone" placeholder="Введите Ваш телефон" required="required">
-                                </div>
-                                <div class="input-wrap col-xs-3 input-submit animate-delay">
-                                    <button type="submit" class="submit-form"><span>Заказать</span></button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="poli-text-wrap">
-                    <div class="poli-text container">
-                        <div class="row  animate-section">
-                            <div class="col-xs-12 animate-it">
-                                <p><b>Специалисты ООО «Пассада»</b> работают уже более 20 лет и ориентированы на качественное обслуживание полиграфического оборудования российских типографий, а также других промышленных предприятий, использующих в работе валы различного назначения.</p>
-                                <p><b>Наша компания оказывает услуги по обрезиновке (гуммированию), нанесению рилсанового и хромированного покрытия, а так же изготовлению и ремонту валов:</b></p>
-                                <br/>
-                                <ul>
-                                    <li>для офсетной печати (красочные валы с использованием как традиционных красок, так и с УФ отверждением, высокоскоростных машин, валы увлажняющего аппарата, работающие как на водном, так и на спиртовом увлажнении)</li>
-                                    <li>флексографской печати</li>
-                                    <li>для допечатных и постпечатных работ (проявки плёнок и форм, фальцевальных валов и роликов)</li>
-                                    <li>кашировки и ламинации (клеевой, термо и припрессовки)</li>
-                                    <li>лакировальных машин</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="circles-block">
-                    <div class="title-wrap animate-section">
-                        <div class="title animate-it">
-                            <p>Виды и характеристики валов</p>
-                        </div>
-                    </div>
-                    <div class="container circles-block-wrap">
-                        <div class="row animate-section">
-                            <div class="col-md-3 animate-delay">
-                                <div class="circle-img-wrap">
-                                    <img src="images/circle-img3.png" alt="" />
-                                </div>
-                                <div class="circle-wrap-description text-center">
-                                    <p><span>Постановка</span></p>
-                                    <p>новых валов</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 animate-delay">
-                                <div class="circle-img-wrap">
-                                    <img src="images/circle-img2.png" alt="" />
-                                </div>
-                                <div class="circle-wrap-description text-center">
-                                    <p><span>Обрезинивание</span></p>
-                                    <p>валов заказзчика</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 animate-delay">
-                                <div class="circle-img-wrap">
-                                    <img src="images/circle-img10.png" alt="" />
-                                </div>
-                                <div class="circle-wrap-description text-center">
-                                    <p><span>Изготовление валов</span></p>
-                                    <p>по чертежу</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 animate-delay">
-                                <div class="circle-img-wrap">
-                                    <img src="images/circle-img11.png" alt="" />
-                                </div>
-                                <div class="circle-wrap-description text-center">
-                                    <p><span>Обмен</span> валов</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="production-block">
-                    <div class="title-wrap animate-section">
-                        <div class="title animate-it">
-                            <p>Виды и характеристики валов</p>
-                        </div>
-                    </div>
-                    <div class="container production-container">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row animate-section">
-                                    <div class="production-item smaller-border cfix animate-it">
-                                        <div class="col-md-4">
-                                            <div class="production-item-img animate-it">
-                                                <img src="images/production-image4.png" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7 col-md-offset-1">
-                                            <div class="production-item-content animate-it">
-                                                <div class="production-item-title">Восстановление валов</div>
-                                                <div class="production-item-text">
-                                                    <ul>
-                                                        <li>Уровень расхода краски как на новой машине.</li>
-                                                        <li>Выделение минимального количества тепла при печати</li>
-                                                        <li>Оптимальный баланс краска-вода</li>
-                                                        <li>Правильная полоса контакта</li>
-                                                        <li>Стабильные размеры и твердость</li>
-                                                        <li>Увеличенный срок службы</li>
-                                                        <li>Сохранение первоначальной формы, стойкость к термоусадке</li>
-                                                        <li>Минимальная регулировка во время печати</li>
-                                                        <li>Легкая очистка и безаварийная эксплуатация</li>
-                                                        <li>Бархатистый ворс обеспечивает надлежащее сочетание краска-вода</li>
-                                                        <li>Уменьшение засаливания, полошения</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12">
-                                <div class="row animate-section">
-                                    <div class="production-item smaller-border cfix animate-it">
-                                        <div class="col-md-4">
-                                            <div class="production-item-img animate-it">
-                                                <img src="images/production-image5.png" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7 col-md-offset-1">
-                                            <div class="production-item-content animate-it">
-                                                <div class="production-item-title">Увлажняющие валы</div>
-                                                <div class="production-item-text">
-                                                    <ul>
-                                                        <li>Уникальное гидрофильное покрытие, обеспечивающее контроль над увлажняющим раствором</li>
-                                                        <li>Для быстрого запуска и продолжения печати</li>
-                                                        <li>Высокая стойкость к спирту и низкое поверхностное натяжение</li>
-                                                        <li>Стабильность размеров</li>
-                                                        <li>Увеличенный срок службы</li>
-                                                        <li>Стабилизируют производственные условия</li>
-                                                        <li>Уменьшают время для очистки и ухода за валами</li>
-                                                        <li>Поддерживают формирование  эмульсии краска-вода</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12">
-                                <div class="row animate-section">
-                                    <div class="production-item smaller-border cfix animate-it">
-                                        <div class="col-md-4">
-                                            <div class="production-item-img animate-it">
-                                                <img src="images/production-image6.png" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7 col-md-offset-1">
-                                            <div class="production-item-content animate-it">
-                                                <div class="production-item-title">Траверсные валы (с аксиальным ходом)</div>
-                                                <div class="production-item-text">
-                                                    <ul>
-                                                        <li>Уровень расхода краски как на новой машине.</li>
-                                                        <li>Устраняют проблемы шаблонирования</li>
-                                                        <li>Обеспечивают равномерный накат краски на печатную пластину.</li>
-                                                        <li>Улучшают качество оттисков</li>
-                                                        <li>Подходят для машин с высокой скоростью подачи листов.</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12">
-                                <div class="row animate-section">
-                                    <div class="production-item smaller-border cfix animate-it">
-                                        <div class="col-md-4">
-                                            <div class="production-item-img animate-it">
-                                                <img src="images/production-image7.png" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7 col-md-offset-1">
-                                            <div class="production-item-content animate-it">
-                                                <div class="production-item-title">Красочные валы для УФ печати</div>
-                                                <div class="production-item-text">
-                                                    <ul>
-                                                        <li>Анти набухающие свойства для всех типов красок УФ и  очистителей.</li>
-                                                        <li>Отличные свойства переноса краски</li>
-                                                        <li>Стабильность геометрических размеров</li>
-                                                        <li>Легко очищаются и обслуживаются</li>
-                                                        <li>Увеличенный срок службы</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="container-fluid two-images anil_val animate-section">
-                    <div class="row">
-                        <div class="container two-images-wrap">
-                            <div class="two-images-item cfix animate-it two-images-item-img">
-                                <div class="two-images-item-wrap ti-left ">
-                                    <div class="two-images-img">
-                                        <img src="images/poli_anil_val_img.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="two-images-item cfix anil_val-section animate-it">
-                                <div class="two-images-item-wrap ti-right ">
-                                    <div class="two-images-text">
-                                        <div class="two-images-title title-big">
-                                            Внимание!
-                                        </div>
-                                        <div class="two-images-description">
-                                            <h4>
-                                                Мы не экономим на качестве<br>
-                                                выпускаемой продукции!
-                                            </h4>
-                                            <h5>
-                                                ШЛИФОВКА РЕЗИНЫ ПРОХОДИТ В НЕСКОЛЬКО ЭТАПОВ С ИСПОЛЬЗОВАНИЕМ СПЕЦИАЛЬНЫХ АБРАЗИВНЫХ КРУГОВ И ОЛИРОВОЧНЫХ БУМАГ ДЛЯ ИДЕАЛЬНОЙ РАБОТЫ С ЛЮБЫМИ НАНОСИМЫМИ МАТЕРИАЛАМИ: ЛАКАМИ, КРАСКАМИ, КЛЕЯМИ.
-                                            </h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="predo-buttons">
-                    <div class="title-wrap animate-section">
-                        <div class="title animate-it">
-                            <p>МЫ ПРЕДЛАГАЕМ ВАЛЫ ДЛЯ МНОГИХ ОТРАСЛЕЙ</p>
-                        </div>
-                    </div>
-                    <div class="container predo-buttons-wrap animate-section">
-                        <div class="predo-buttons-item animate-delay">
-                            <div class="button-a button-border">
-                                <span>Валы для печати</span>
-                            </div>
-                        </div>
-                        <div class="predo-buttons-item animate-delay">
-                            <div class="button-a button-border">
-                                <span>Офсетная печать</span>
-                            </div>
-                        </div>
-                        <div class="predo-buttons-item animate-delay">
-                            <div class="button-a button-border">
-                                <span>Металлургическая промышленность</span>
-                            </div>
-                        </div>
-                        <div class="predo-buttons-item animate-delay">
-                            <div class="button-a button-border">
-                                <span>Производство упаковки</span>
-                            </div>
-                        </div>
-                        <div class="predo-buttons-item animate-delay">
-                            <div class="button-a button-border">
-                                <span>Бумажная промышленность</span>
-                            </div>
-                        </div>
-                        <div class="predo-buttons-item animate-delay">
-                            <div class="button-a button-border">
-                                <span>Текстильная промышленность</span>
-                            </div>
-                        </div>
-                        <div class="predo-buttons-item animate-delay">
-                            <div class="button-a button-border">
-                                <span>Машиностроение</span>
-                            </div>
-                        </div>
-                        <div class="predo-buttons-item animate-delay">
-                            <div class="button-a button-border">
-                                <span>Деревообработка</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="production-block">
-                    <div class="title-wrap animate-section">
-                        <div class="title animate-it">
-                            <p>Услуги и продукция</p>
-                        </div>
-                    </div>
-                    <div class="container production-container">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row animate-section">
-                                    <div class="production-item cfix animate-it">
-                                        <div class="col-md-4">
-                                            <div class="production-item-img animate-it">
-                                                <img src="images/production-image1.png" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7 col-md-offset-1">
-                                            <div class="production-item-content animate-it">
-                                                <div class="production-item-title">Восстановление валов</div>
-                                                <div class="production-item-text">
-                                                    <p>Разнообразный и богатый опыт сложившаяся структура организации требуют от нас анализа новых предложений. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке систем массового участия. Разнообразный и богатый опыт укрепление и развитие структуры представляет.</p>
-                                                </div>
-                                                <div class="production-item-button">
-                                                    <a href="#" class="button-a"><span>Подробнее</span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12">
-                                <div class="row animate-section">
-                                    <div class="production-item cfix animate-it">
-                                        <div class="col-md-4">
-                                            <div class="production-item-img animate-it">
-                                                <img src="images/production-image2.png" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7 col-md-offset-1">
-                                            <div class="production-item-content animate-it">
-                                                <div class="production-item-title">Поставка новых валов</div>
-                                                <div class="production-item-text">
-                                                    <p>Разнообразный и богатый опыт сложившаяся структура организации требуют от нас анализа новых предложений. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке систем массового участия. Разнообразный и богатый опыт укрепление и развитие структуры представляет.</p>
-                                                </div>
-                                                <div class="production-item-button">
-                                                    <a href="#" class="button-a"><span>Подробнее</span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12">
-                                <div class="row animate-section">
-                                    <div class="production-item cfix animate-it">
-                                        <div class="col-md-4">
-                                            <div class="production-item-img animate-it">
-                                                <img src="images/production-image3.png" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7 col-md-offset-1">
-                                            <div class="production-item-content animate-it">
-                                                <div class="production-item-title">поставка флексогильз</div>
-                                                <div class="production-item-text">Разнообразный и богатый опыт сложившаяся структура организации требуют от нас анализа новых предложений. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке систем массового участия. Разнообразный и богатый опыт укрепление и развитие структуры представляет.</div>
-                                                <div class="production-item-button">
-                                                    <a href="#" class="button-a"><span>Подробнее</span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="bottom-form-wrap">
-                    <div class="bottom-form container">
-                        <div class="title-wrap white animate-section">
-                            <div class="title animate-it">
-                                <p>Остались вопросы?</p>
-                            </div>
-                        </div>
-                        <div class="form-wrap row">
-                            <form action="" mathod="POST" class="form-bottom animate-section">
-                                <div class="input-wrap col-xs-3 name animate-delay">
-                                    <input type="text" name="name" placeholder="Ваше имя" required="required">
-                                </div>
-                                <div class="input-wrap col-xs-3 phone animate-delay">
-                                    <input type="text" name="phone" placeholder="Ваш номер телефон" required="required">
-                                </div>
-                                <div class="input-wrap col-xs-3 input-submit animate-delay">
-                                    <button type="submit" class="submit-form consult"><span>Получить консультацию</span></button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="about-us">
-                    <div class="title-wrap animate-section">
-                        <div class="title animate-it">
-                            <p>Клиенты о нас</p>
-                        </div>
-                    </div>
-                    <div class="container animate-section">
-                        <div class="row animate-it">
-                            <div class="col-md-3 foto-block-about">
-                                <div class="white-around-about">
-                                    <div class="container-for-foto">
-                                        <img class="foto-for-about-us" src="images/foto-for-about-us.jpg">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-9 text-block-about">
-                                <div class="text-bordered-block">
-                                    <div class="text-about-title">
-                                        <p><b>Романов Виктор Иванович,</b>бухгалтер, полиграфия “ВИС”</p>
-                                    </div>
-                                    <div class="text-about">
-                                        <p>“Равным образом новая модель организационной деятельности способствует подготовки и реализации новых предложений. С другой стороны дальнейшее развитие различных форм деятельности позволяет оценить значение форм развития. ”</p>
-                                    </div>
-                                </div>
-                                <div class="text-arrow"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="container-fluid two-images about_company animate-section poli_about_company">
-                    <div class="row">
-                        <div class="container two-images-wrap">
-                            <div class="two-images-item cfix animate-it two-images-item-img">
-                                <div class="two-images-item-wrap ti-left">
-                                    <div class="two-images-img">
-                                        <img src="images/about_company_img.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="two-images-item cfix about_company-section animate-it">
-                                <div class="two-images-item-wrap ti-right ">
-                                    <div class="two-images-text">
-                                        <div class="two-images-title">
-                                            О компании
-                                        </div>
-                                        <div class="two-images-description">
-                                            <h5>
-                                                ООО «ПАССАДА» – ВАШ НАДЕЖНЫЙ ПОСТАВЩИК
-                                                ОБРЕЗИНЕННЫХ ВАЛОВ ДЛЯ РАЗЛИЧНЫХ
-                                                ОТРАСЛЕЙ ПРОМЫШЛЕННОСТИ И ПОЛИГРАФИИ.
-                                                (HEIDELBERG, MAN ROLAND, KBA, KOMORI,
-                                                RYOBI И ДР.)
-                                            </h5>
-                                            <p>Наша компания имеет собственное производство, специализирующие на обрезинивание валов, гуммирование валов, восстановление и изготовление валов для полиграфической и других отраслей промышленности. Использование высококачественных материалов из Германии, Англии, Италии - позволяет выбрать при выполнении заказов именно тот вид покрытия, который обладает наилучшими эксплуатационными свойствами для валов любого назначения.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </div>
-        <div class="footer_placeholder"></div>
-        <footer class="footer">
+        <div class="header-bottom">
+
+
+<div class="header-slider-wrap">
+    <div class="header-slider-wrap-main">
+        <div class="header-slider-item">
+            <div class="conteiner-content animate-section">
+                <div class="content-box no-hover-item2 animate-it">
+                    <h3>  Производство и востановление <br /> полиграфических валов  </h3>
+                    <a href="#call-popup" class="convert-box-button fancybox_popup">
+                        <div class="convert-button"> Рассчитать стоимость </div>
+                    </a>
+                </div>
+                <img src="images/header-image2.png" alt="" />
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        </div>
+
+    </header>    <div class="main">
+
+        <section>
+
+
+<div class="top-form-wrap">
+    <div class="top-form container">
+        <div class="title-wrap white animate-section">
+            <div class="title animate-it">
+                <p>Скидка на первый заказ 15%</p>
+            </div>
+        </div>
+        <div class="form-wrap row">
+            <form action="" mathod="POST" class="form-top animate-section">
+                <div class="input-wrap col-xs-3 name animate-delay">
+                    <input type="text" name="name" placeholder="Введите Ваше имя" required="required">
+                </div>
+                <div class="input-wrap col-xs-3 phone animate-delay">
+                    <input type="text" name="phone" placeholder="Введите Ваш телефон" required="required">
+                </div>
+                <div class="input-wrap col-xs-3 input-submit animate-delay">
+                    <button type="submit" class="submit-form"><span>Заказать</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>        </section>
+
+        <section>
+
+
+<div class="poli-text-wrap">
+    <div class="poli-text container">
+        <div class="row  animate-section">
+            <div class="col-xs-12 animate-it">
+                <p><b>Специалисты ООО «Пассада»</b> работают уже более 20 лет и ориентированы на качественное обслуживание полиграфического оборудования российских типографий, а также других промышленных предприятий, использующих в работе валы различного назначения.</p><p><b>Наша компания оказывает услуги по обрезиновке (гуммированию), нанесению рилсанового и хромированного покрытия, а так же изготовлению и ремонту валов:</b></p><br/><ul><li>для офсетной печати (красочные валы с использованием как традиционных красок, так и с УФ отверждением, высокоскоростных машин, валы увлажняющего аппарата, работающие как на водном, так и на спиртовом увлажнении)</li><li>флексографской печати</li><li>для допечатных и постпечатных работ (проявки плёнок и форм, фальцевальных валов и роликов)</li><li>кашировки и ламинации (клеевой, термо и припрессовки)</li><li>лакировальных машин</li></ul>
+            </div>
+        </div>
+    </div>
+</div>        </section>
+
+        <section>
+            <div class="circles-block">
+                <div class="title-wrap animate-section">
+                    <div class="title animate-it">
+                        <p>Виды и характеристики валов</p>
+                    </div>
+                </div>
+                <div class="container circles-block-wrap">
+                    <div class="row animate-section">
+                        <div class="col-md-3 animate-delay">
+                            <div class="circle-img-wrap">
+                                <img src="images/circle-img3.png" alt="" />
+                            </div>
+                            <div class="circle-wrap-description text-center">
+                                <p><span>Постановка</span></p>
+                                <p>новых валов</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 animate-delay">
+                            <div class="circle-img-wrap">
+                                <img src="images/circle-img2.png" alt="" />
+                            </div>
+                            <div class="circle-wrap-description text-center">
+                                <p><span>Обрезинивание</span></p>
+                                <p>валов заказзчика</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 animate-delay">
+                            <div class="circle-img-wrap">
+                                <img src="images/circle-img10.png" alt="" />
+                            </div>
+                            <div class="circle-wrap-description text-center">
+                                <p><span>Изготовление валов</span></p>
+                                <p>по чертежу</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 animate-delay">
+                            <div class="circle-img-wrap">
+                                <img src="images/circle-img11.png" alt="" />
+                            </div>
+                            <div class="circle-wrap-description text-center">
+                                <p><span>Обмен</span> валов</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+            <div class="production-block">
+                <div class="title-wrap animate-section">
+                    <div class="title animate-it">
+                        <p>Виды и характеристики валов</p>
+                    </div>
+                </div>
+                <div class="container production-container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row animate-section">
+                                <div class="production-item smaller-border cfix animate-it">
+                                    <div class="col-md-4">
+                                        <div class="production-item-img animate-it">
+                                            <img src="images/production-image4.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-md-offset-1">
+                                        <div class="production-item-content animate-it">
+                                            <div class="production-item-title">Восстановление валов</div>
+                                            <div class="production-item-text">
+                                                <ul>
+                                                    <li>Уровень расхода краски как на новой машине.</li>
+                                                    <li>Выделение минимального количества тепла при печати</li>
+                                                    <li>Оптимальный баланс краска-вода</li>
+                                                    <li>Правильная полоса контакта</li>
+                                                    <li>Стабильные размеры и твердость</li>
+                                                    <li>Увеличенный срок службы</li>
+                                                    <li>Сохранение первоначальной формы, стойкость к термоусадке</li>
+                                                    <li>Минимальная регулировка во время печати</li>
+                                                    <li>Легкая очистка и безаварийная эксплуатация</li>
+                                                    <li>Бархатистый ворс обеспечивает надлежащее сочетание краска-вода</li>
+                                                    <li>Уменьшение засаливания, полошения</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="row animate-section">
+                                <div class="production-item smaller-border cfix animate-it">
+                                    <div class="col-md-4">
+                                        <div class="production-item-img animate-it">
+                                            <img src="images/production-image5.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-md-offset-1">
+                                        <div class="production-item-content animate-it">
+                                            <div class="production-item-title">Увлажняющие валы</div>
+                                            <div class="production-item-text">
+                                                <ul>
+                                                    <li>Уникальное гидрофильное покрытие, обеспечивающее контроль над увлажняющим раствором</li>
+                                                    <li>Для быстрого запуска и продолжения печати</li>
+                                                    <li>Высокая стойкость к спирту и низкое поверхностное натяжение</li>
+                                                    <li>Стабильность размеров</li>
+                                                    <li>Увеличенный срок службы</li>
+                                                    <li>Стабилизируют производственные условия</li>
+                                                    <li>Уменьшают время для очистки и ухода за валами</li>
+                                                    <li>Поддерживают формирование  эмульсии краска-вода</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="row animate-section">
+                                <div class="production-item smaller-border cfix animate-it">
+                                    <div class="col-md-4">
+                                        <div class="production-item-img animate-it">
+                                            <img src="images/production-image6.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-md-offset-1">
+                                        <div class="production-item-content animate-it">
+                                            <div class="production-item-title">Траверсные валы (с аксиальным ходом)</div>
+                                            <div class="production-item-text">
+                                                <ul>
+                                                    <li>Уровень расхода краски как на новой машине.</li>
+                                                    <li>Устраняют проблемы шаблонирования</li>
+                                                    <li>Обеспечивают равномерный накат краски на печатную пластину.</li>
+                                                    <li>Улучшают качество оттисков</li>
+                                                    <li>Подходят для машин с высокой скоростью подачи листов.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="row animate-section">
+                                <div class="production-item smaller-border cfix animate-it">
+                                    <div class="col-md-4">
+                                        <div class="production-item-img animate-it">
+                                            <img src="images/production-image7.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-md-offset-1">
+                                        <div class="production-item-content animate-it">
+                                            <div class="production-item-title">Красочные валы для УФ печати</div>
+                                            <div class="production-item-text">
+                                                <ul>
+                                                    <li>Анти набухающие свойства для всех типов красок УФ и  очистителей.</li>
+                                                    <li>Отличные свойства переноса краски</li>
+                                                    <li>Стабильность геометрических размеров</li>
+                                                    <li>Легко очищаются и обслуживаются</li>
+                                                    <li>Увеличенный срок службы</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+
+
+<div class="container-fluid two-images anil_val animate-section">
+    <div class="row">
+        <div class="container two-images-wrap">
+            <div class="two-images-item cfix animate-it two-images-item-img">
+                <div class="two-images-item-wrap ti-left ">
+                    <div class="two-images-img">
+                        <img src="images/poli_anil_val_img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="two-images-item cfix anil_val-section animate-it">
+                <div class="two-images-item-wrap ti-right ">
+                    <div class="two-images-text">
+                        <div class="two-images-title title-big">
+                             Внимание!
+                        </div>
+                        <div class="two-images-description">
+                            <h4>
+                                Мы не экономим на качестве<br>
+                                выпускаемой продукции!
+                            </h4>
+                            <h5>
+                                ШЛИФОВКА РЕЗИНЫ ПРОХОДИТ В НЕСКОЛЬКО ЭТАПОВ С ИСПОЛЬЗОВАНИЕМ СПЕЦИАЛЬНЫХ АБРАЗИВНЫХ КРУГОВ И ОЛИРОВОЧНЫХ БУМАГ ДЛЯ ИДЕАЛЬНОЙ РАБОТЫ С ЛЮБЫМИ НАНОСИМЫМИ МАТЕРИАЛАМИ: ЛАКАМИ, КРАСКАМИ, КЛЕЯМИ.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>        </section>
+
+        <section>
+
+            <div class="predo-buttons">
+                <div class="title-wrap animate-section">
+                    <div class="title animate-it">
+                        <p>МЫ ПРЕДЛАГАЕМ ВАЛЫ ДЛЯ МНОГИХ ОТРАСЛЕЙ</p>
+                    </div>
+                </div>
+
+                <div class="container predo-buttons-wrap animate-section">
+
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Валы для печати</span>
+                        </div>
+                    </div>
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Офсетная печать</span>
+                        </div>
+                    </div>
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Металлургическая промышленность</span>
+                        </div>
+                    </div>
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Производство упаковки</span>
+                        </div>
+                    </div>
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Бумажная промышленность</span>
+                        </div>
+                    </div>
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Текстильная промышленность</span>
+                        </div>
+                    </div>
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Машиностроение</span>
+                        </div>
+                    </div>
+                    <div class="predo-buttons-item animate-delay">
+                        <div class="button-a button-border">
+                            <span>Деревообработка</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section>
+            <div class="production-block">
+                <div class="title-wrap animate-section">
+                    <div class="title animate-it">
+                        <p>Услуги и продукция</p>
+                    </div>
+                </div>
+                <div class="container production-container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row animate-section">
+                                <div class="production-item cfix animate-it">
+                                    <div class="col-md-4">
+                                        <div class="production-item-img animate-it">
+                                            <img src="images/production-image1.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-md-offset-1">
+                                        <div class="production-item-content animate-it">
+                                            <div class="production-item-title">Восстановление валов</div>
+                                            <div class="production-item-text">
+                                                <p>Разнообразный и богатый опыт сложившаяся структура организации требуют от нас анализа новых предложений. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке систем массового участия. Разнообразный и богатый опыт укрепление и развитие структуры представляет.</p>
+                                            </div>
+                                            <div class="production-item-button">
+                                                <a href="#" class="button-a"><span>Подробнее</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="row animate-section">
+                                <div class="production-item cfix animate-it">
+                                    <div class="col-md-4">
+                                        <div class="production-item-img animate-it">
+                                            <img src="images/production-image2.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-md-offset-1">
+                                        <div class="production-item-content animate-it">
+                                            <div class="production-item-title">Поставка новых валов</div>
+                                            <div class="production-item-text">
+                                                <p>Разнообразный и богатый опыт сложившаяся структура организации требуют от нас анализа новых предложений. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке систем массового участия. Разнообразный и богатый опыт укрепление и развитие структуры представляет.</p>
+                                            </div>
+                                            <div class="production-item-button">
+                                                <a href="#" class="button-a"><span>Подробнее</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="row animate-section">
+                                <div class="production-item cfix animate-it">
+                                    <div class="col-md-4">
+                                        <div class="production-item-img animate-it">
+                                            <img src="images/production-image3.png" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-md-offset-1">
+                                        <div class="production-item-content animate-it">
+                                            <div class="production-item-title">поставка флексогильз</div>
+                                            <div class="production-item-text">Разнообразный и богатый опыт сложившаяся структура организации требуют от нас анализа новых предложений. Идейные соображения высшего порядка, а также начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке систем массового участия. Разнообразный и богатый опыт укрепление и развитие структуры представляет.</div>
+                                            <div class="production-item-button">
+                                                <a href="#" class="button-a"><span>Подробнее</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+
+
+<div class="bottom-form-wrap">
+    <div class="bottom-form container">
+        <div class="title-wrap white animate-section">
+            <div class="title animate-it">
+                <p>Остались вопросы?</p>
+            </div>
+        </div>
+        <div class="form-wrap row">
+            <form action="" mathod="POST" class="form-bottom animate-section">
+                <div class="input-wrap col-xs-3 name animate-delay">
+                    <input type="text" name="name" placeholder="Ваше имя" required="required">
+                </div>
+                <div class="input-wrap col-xs-3 phone animate-delay">
+                    <input type="text" name="phone" placeholder="Ваш номер телефон" required="required">
+                </div>
+                <div class="input-wrap col-xs-3 input-submit animate-delay">
+                    <button type="submit" class="submit-form consult"><span>Получить консультацию</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>        </section>
+
+        <section>
+
+
+ <div class="about-us">
+    <div class="title-wrap animate-section">
+        <div class="title animate-it">
+        <p>Клиенты о нас</p>
+
+        </div>
+    </div>
+
+    <div class="conteiner-slider-wrap animate-section">
+        <div class="container-slider animate-it">
+
+            <div class="client-slider  ">
+                <div class="container-for-foto">
+                    <img class="foto-for-about-us" src="images/about-us-man.png">
+                </div>
+
+                <div class=" text-block-about">
+
+                    <div class="text-bordered-block">
+                        <div class="text-about-title"><p><b>Романов Виктор Иванович,</b>бухгалтер, полиграфия “ВИС”</p></div>
+                        <div class="text-about"><p>“Равным образом новая модель организационной деятельности способствует подготовки и реализации новых предложений. С другой стороны дальнейшее развитие различных форм деятельности позволяет оценить значение форм развития. ”</p></div>
+                    </div>
+
+                    <div class="text-arrow"></div>
+                </div>
+            </div>
+
+            <div class="client-slider">
+                <div class="container-for-foto">
+                    <img class="foto-for-about-us" src="images/about-us-man.png">
+                </div>
+
+                <div class=" text-block-about">
+
+                    <div class="text-bordered-block">
+                        <div class="text-about-title"><p><b>Романов Виктор Иванович,</b>бухгалтер, полиграфия “ВИС”</p></div>
+                        <div class="text-about"><p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus autem quasi cumque nostrum sunt provident quia vel ab in, fugiat illum, minus iste eos, quis porro exercitationem id similique aspernatur expedita architecto.  ”</p></div>
+                    </div>
+
+                    <div class="text-arrow"></div>
+                </div>
+            </div>
+
+            <div class="client-slider">
+                <div class="container-for-foto">
+                    <img class="foto-for-about-us" src="images/about-us-man.png">
+                </div>
+
+                <div class=" text-block-about">
+
+                    <div class="text-bordered-block">
+                        <div class="text-about-title"><p><b>Романов Виктор Иванович,</b>бухгалтер, полиграфия “ВИС”</p></div>
+                        <div class="text-about"><p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eveniet quaerat deserunt quasi, non optio deleniti nobis sed necessitatibus, tempora maxime praesentium, eos magnam vero enim modi aspernatur expedita cum!  ”</p></div>
+                    </div>
+
+                    <div class="text-arrow"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>        </section>
+
+        <section>
+
+
+<div class="container-fluid two-images about_company animate-section poli_about_company">
+    <div class="row">
+        <div class="container two-images-wrap">
+            <div class="two-images-item cfix animate-it two-images-item-img">
+                <div class="two-images-item-wrap ti-left">
+                    <div class="two-images-img">
+                        <img src="images/about_company_img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="two-images-item cfix about_company-section animate-it">
+                <div class="two-images-item-wrap ti-right ">
+                    <div class="two-images-text">
+                        <div class="two-images-title">
+                            О компании
+                        </div>
+                        <div class="two-images-description">
+                            <h5>
+                                ООО «ПАССАДА» – ВАШ НАДЕЖНЫЙ ПОСТАВЩИК
+                                ОБРЕЗИНЕННЫХ ВАЛОВ ДЛЯ РАЗЛИЧНЫХ
+                                ОТРАСЛЕЙ ПРОМЫШЛЕННОСТИ И ПОЛИГРАФИИ.
+                                (HEIDELBERG, MAN ROLAND, KBA, KOMORI,
+                                RYOBI И ДР.)
+                            </h5>
+                            <p>Наша компания имеет собственное производство, специализирующие на обрезинивание валов, гуммирование валов, восстановление и изготовление валов для полиграфической и других отраслей промышленности. Использование высококачественных материалов из Германии, Англии, Италии - позволяет выбрать при выполнении заказов именно тот вид покрытия, который обладает наилучшими эксплуатационными свойствами для валов любого назначения.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>        </section>
+
+    </div>  <div class="footer_placeholder"></div>
+    <footer class="footer">
+
             <div class="container footer-top-navigation animate-section">
                 <div class="row cfix animate-it">
                     <div class="footer-item animate-delay"><a href="#">Главная</a></div>
@@ -630,43 +715,44 @@
                     <div class="footer-item animate-delay"><a href="#">Флексогильзы</a></div>
                 </div>
             </div>
-            <div class="container animate-section">
-                <div class="row animate-it footer-bottom">
-                    <div class="col-xs-4 animate-delay">
-                        <div class="logo">
-                            <img src="images/header-logo.png" alt="">
-                        </div>
+
+        <div class="container animate-section">
+            <div class="row animate-it footer-bottom">
+                <div class="col-xs-4 animate-delay">
+                    <div class="logo">
+                        <img src="images/header-logo.png" alt="">
                     </div>
-                    <div class="col-xs-4 col-xs-offset-1 animate-delay">
-                        <div class="confidental">
-                            <a href="#">Политика конфиденциальности</a>
-                        </div>
-                        <div class="created">
-                            <a href="smartlending.ru" target="_blank">
-                            Разработано в smartlending.ru
+                </div>
+                <div class="col-xs-4 col-xs-offset-1 animate-delay">
+                    <div class="confidental">
+                        <a href="#">Политика конфиденциальности</a>
+                    </div>
+                    <div class="created">
+                        <a href="smartlending.ru" target="_blank">
+                            Разработано в smartlanding.ru
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-2 col-xs-offset-1 animate-delay">
+                    <div class="footer-addres">
+                        <div class="addres-row">
+                            <span class="icon footer-tel"></span>
+                            <a href="tel:84997071207">
+                                8&nbsp;(499)&nbsp;707-12-07
                             </a>
                         </div>
-                    </div>
-                    <div class="col-xs-2 col-xs-offset-1 animate-delay">
-                        <div class="footer-addres">
-                            <div class="addres-row">
-                                <span class="icon footer-tel"></span>
-                                <a href="tel:84997071207">
-                                8&nbsp;(499)&nbsp;707-12-07
-                                </a>
-                            </div>
-                            <div class="addres-row">
-                                <p>
-                                    <span class="icon footer-mark"></span>
-                                    <b>г.Москва</b>
-                                </p>
-                                <p>Погонный проезд 6,</p>
-                                <p>корп.1, офис:53</p>
-                            </div>
+                        <div class="addres-row">
+                            <p>
+                                <span class="icon footer-mark"></span>
+                                <b>г.Москва</b>
+                            </p>
+                            <p>Погонный проезд 6,</p>
+                            <p>корп.1, офис:53</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
-    </body>
+        </div>
+    </footer>
+</body>
 </html>

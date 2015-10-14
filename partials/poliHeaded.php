@@ -4,7 +4,7 @@
             <div class="conteiner-content animate-section">
                 <div class="content-box no-hover-item2 animate-it">
                     <h3>  Производство и востановление <br /> полиграфических валов  </h3>
-                    <a href="#" class="convert-box-button">
+                    <a href="#call-popup" class="convert-box-button fancybox_popup">
                         <div class="convert-button"> Рассчитать стоимость </div>
                     </a>
                 </div>
